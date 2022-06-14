@@ -41,32 +41,37 @@ h1, h2, h3 {
 h1 {
 padding-bottom: 10px;
 }
-/* Navbar */
-.navbar input[type="checkbox"],
-.navbar .hamburger-lines {
-display: none;
+/* Social Media Strip */
+.social-media-strip {
+  position: fixed;
+  bottom: 10px;
+  left: 20px;
+}
+.social-media-icons {
+  display: flex;
+  flex-direction: column;
+}
+.social-media-icon {
+  font-size: 16px;
+  margin: 10px;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.496);
+}
+.social-media-icon:hover{
+  transition: 0.1s;
+  color: rgb(255, 164, 66);
+  transform: translateY(-3px);
+}
+.social-media-icons::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 90px;
+  margin: 0px auto;
+  background-color: rgba(255, 255, 255, 0.496);
 }
 
-.navbar { 
-position: fixed;
-bottom: 5%;
-left: 50%;
-transform: translateX(-50%);
-display: flex;
-justify-content: center;
-align-items: center;
-z-index: 999;
-}
 
-.navbar-background {
-  border-radius: 22px; 
-  background: linear-gradient(90deg,rgba(182, 0, 210, 0.418),rgba(0, 128, 128, 0.479));
-  /* background-color: rgba(182, 0, 210, 0.5); */
-  backdrop-filter: blur(5px);
-  height: 72px;
-  width: 400px;
-  box-shadow: rgba(4, 16, 33, 0.275) 10px 10px;
-}
 .menu-items {
 display: flex;
 justify-content: center;
@@ -124,6 +129,7 @@ margin-bottom: 10px;
   height: 100vh;
   background-color: #232323;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   background-image: radial-gradient(#dd00ff60 5%, transparent 10%),radial-gradient(#00b3ff2f 10%, transparent 5%);
@@ -135,9 +141,12 @@ margin-bottom: 10px;
 .hero-section .hero-header {
     width: 250px;
     height: 250px;
-    position: relative;
+    position: absolute;
+    top: 60%;
+    left: 52%;
+    /* bring your own prefixes */
+    transform: translate(-50%, -50%);    
     display: flex;
-    justify-content: center;
     flex-direction: column;
  }
 .hero-section .hero-header .title {
@@ -503,8 +512,7 @@ margin-bottom: 10px;
   text-align: center;
 }
 
-
-.home-left .sign-up-box{
+.sign-up-box{
   border: solid rgb(255, 255, 255) 1px;
   border-radius: 5px;
   text-align: center;
@@ -513,8 +521,9 @@ margin-bottom: 10px;
   font-size: 12px;
   background-color: #232323;
   color: white;
+  z-index: 999;
 }
-.home-left .sign-up-box:hover{
+.sign-up-box:hover{
 transition:0.2s;
 color: #ff8432;
 border: solid 1px #ff8432;
@@ -529,8 +538,6 @@ cursor: pointer;
   justify-content: space-between;
   width: 80%;
   margin: auto;
-  padding: 10px;
-  border-bottom: solid white 1px;
 }    
 
 .image-container {
@@ -550,8 +557,6 @@ cursor: pointer;
   align-items: center;  
   justify-content: center;
   width: 70%;
-  border: solid 2px white;
-  padding: 20px;
 }
 
 .tiles{
@@ -578,8 +583,10 @@ cursor: pointer;
 
 .tiles .tile:hover{
   transition: 0.3s;
-  transform: scale(1.02);
+  /* transform: scale(1.02); */
+  transform: translateY(3px);
   box-shadow: rgb(0, 0, 0) 0 0;
+  cursor: pointer;
 
 }
 
