@@ -21,7 +21,7 @@ function App() {
 
         <div class="hero-section">
             <div class="hero-header">
-                <p>Hi, my name is</p> 
+                <p class = "special-text">Hi, my name is</p> 
 
                 <div class="title">
                     <span class="block"></span>
@@ -41,7 +41,6 @@ function App() {
                     </div>
                 </div>     
                 
-                {/* <div class="sign-up-box">My Resume</div> */}
 
             </div>
 
@@ -71,12 +70,22 @@ function App() {
 
 
         {/* <!-- About Me Section--> */}
-        <h1 class='title-section'>About Me</h1>
         <div class = "about-section" id="about">
-            <div class = "image-container"></div>
+            <h1 class='section-title'>About Me</h1>
 
+            <div class = "about-content">
 
-            <div class = "about-right">
+                <div class='image-and-description'>
+                    <div class = "about-image-container"></div>
+                    <div class = 'about-description-and-resume'>
+                        <p class='about-description'> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
+                            This ideological background reflects through my technical interests and thus, I am passionate about decentralized and Open-Source technology.
+                        </p>
+                        <div class="resume-box">
+                            <p>My Resume</p>
+                        </div>
+                    </div>
+                </div>
                 <div class ="tiles" >
                         <div class = "tile">
                         </div>
@@ -91,15 +100,12 @@ function App() {
                         </div>
                 </div>
                 
-                <p> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
-                    This ideological background reflects through my technical interests and thus, I am passionate about decentralized and Open-Source technology.
-                </p>
-
-                
+              
 
             </div>
 
 
+        
         </div>
 
         <h1 class='title-section'>My Works</h1>
