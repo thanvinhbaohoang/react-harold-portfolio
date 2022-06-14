@@ -8,14 +8,14 @@
 
 /* Colored Scroll Bar CSS */
 ::-webkit-scrollbar {
-    width: 10px;
+    width: 5px;
 }
 ::-webkit-scrollbar-track {
     background: #f1f1f1;
 }
 ::-webkit-scrollbar-thumb {
     background: #7a009c;
-    border-radius: 12px;
+    border-radius: 1px;
     transition: all 0.3s ease;
 }
 
@@ -55,13 +55,17 @@ padding-bottom: 10px;
   font-size: 16px;
   margin: 10px;
   transition: 0.2s;
-  color: rgba(255, 255, 255, 0.496);
+  color: rgba(255, 255, 255, 0.538);
+  cursor: pointer;
 }
 .social-media-icon:hover{
   transition: 0.1s;
-  color: rgb(255, 164, 66);
+  color: rgb(255, 181, 103);
   transform: translateY(-3px);
+  text-shadow: 10px 10px 10px rgb(255, 255, 255);
+  z-index: 999;
 }
+
 .social-media-icons::after {
   content: "";
   display: block;
@@ -143,7 +147,7 @@ margin-bottom: 10px;
     height: 250px;
     position: absolute;
     top: 60%;
-    left: 52%;
+    left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);    
     display: flex;

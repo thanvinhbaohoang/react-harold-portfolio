@@ -21,6 +21,8 @@ function App() {
 
         <div class="hero-section">
             <div class="hero-header">
+                <p>Hi, my name is</p> 
+
                 <div class="title">
                     <span class="block"></span>
                     <h1>Harold Than<span></span></h1>
@@ -37,14 +39,16 @@ function App() {
 
                         </ul>
                     </div>
-                </div>               
+                </div>     
+                
+                {/* <div class="sign-up-box">My Resume</div> */}
+
             </div>
 
-            {/* <button type="button" class="sign-up-box">My Resume</button> */}
         </div>
 
         {/* <!-- Home Section--> */}
-        <div class ="home">
+        {/* <div class ="home">
             <div class="home-left">
                 <div class = "home-header-container">
 
@@ -63,7 +67,7 @@ function App() {
 
             </div>
             
-            </div>
+            </div> */}
 
 
         {/* <!-- About Me Section--> */}
