@@ -2,6 +2,12 @@
 // import logo from './logo.svg';
 import { FaInstagram, FaLinkedinIn, FaGithub, FaYoutube} from "react-icons/fa";
 import './App.css';
+import harold from './images/harold.jpg';
+import doge from './images/doge.webp';
+import web3 from './images/web3.webp';
+import virtual from './images/virtual.webp';
+import cyber from './images/cyber.webp';
+
 
 function App() {
   return (
@@ -14,12 +20,31 @@ function App() {
                 <FaLinkedinIn class='social-media-icon'/>
                 <FaGithub class='social-media-icon'/>
                 <FaYoutube class='social-media-icon'/>
-                <div class= 'social-media-line'></div>
             </div>
 
         </div>
 
-        <div class="hero-section">
+        <div class='nav-bar'>
+            <div class='nav-items'>
+                <a href ='#hero'>
+                    <p class='nav-item'> Home </p>
+                </a>
+                <a href ='#about'>
+                    <p class='nav-item'> About </p>
+                </a>
+                <a href ='#works'>
+                    <p class='nav-item'> Works </p>
+                </a>
+                <a href ='#contact'>
+                    <p class='nav-item'> Contact </p>
+                </a>
+              
+            </div>
+
+        </div>
+
+
+        <div class="hero-section" id ='hero'>
             <div class="hero-header">
                 <p class = "special-text">Hi, my name is</p> 
 
@@ -46,27 +71,6 @@ function App() {
 
         </div>
 
-        {/* <!-- Home Section--> */}
-        {/* <div class ="home">
-            <div class="home-left">
-                <div class = "home-header-container">
-
-                    <h1> Welcome To My Portfolio</h1>
-                </div>
-            
-                <div class = "cta">
-
-                    <div class ="description">
-                        <p> <b>Harold Than</b> is my name and I love random stuffs. If you want a brief overview of my past experience, you can view it here instead of
-                        going through the entire site.</p>
-                    </div>
-                </div>
-        
-                <button type="button" class="sign-up-box">My Resume</button>
-
-            </div>
-            
-            </div> */}
 
 
         {/* <!-- About Me Section--> */}
@@ -76,19 +80,29 @@ function App() {
             <div class = "about-content">
 
                 <div class='image-and-description'>
-                    <div class = "about-image-container"></div>
+                    <div class = "about-image-container">
+                        <img class= 'about-image' src={harold} width='100%'/>
+                    </div>
                     <div class = 'about-description-and-resume'>
                         <div class ="tiles" >
                             <div class = "tile">
+                                <p> FOSSCAD</p>
+                                <img class= 'tile-image' src={doge} width='100%'/>
                             </div>
 
                             <div class = "tile">
+                                <p> Web 3.0</p>
+                                <img class= 'tile-image' src={web3} width='100%'/>
                             </div>
 
                             <div class = "tile">
+                                <p> AR/VR</p>
+                                <img class= 'tile-image' src={virtual} width='100%'/>
                             </div>
 
                             <div class = "tile">
+                                <p> Cybersecurity</p>
+                                <img class= 'tile-image' src={cyber} width='100%'/>
                             </div>
                         </div>
                         <p class='about-description'> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
@@ -108,8 +122,9 @@ function App() {
         
         </div>
 
-        <h1 class='title-section'>My Works</h1>
         <div class = "works-section" id="works">
+            <h1 class='section-title'> My Works</h1>
+
             <div class='main-works'></div>
             <div class='other-works'></div>
         </div>

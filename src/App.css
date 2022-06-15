@@ -41,6 +41,42 @@ h1, h2, h3 {
 h1 {
 padding-bottom: 10px;
 }
+
+.nav-bar {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+}
+
+.nav-items {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+.nav-item {
+  font-size: 14px;
+  margin: 10px;
+  transition: 0.2s;
+  color: rgba(255, 255, 255, 0.627);
+  cursor: pointer;
+}
+.nav-item:hover{
+  transition: 0.1s;
+  color:#91eeff;
+  transform: translateY(-2px);
+  text-shadow: 0 0 30px rgb(246, 255, 175);
+  z-index: 999;
+}
+
+.nav-items::before {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 40px;
+  margin: 0px 30px;
+  background-color: rgba(255, 255, 255, 0.496);
+}
+
 /* Social Media Strip */
 .social-media-strip {
   position: fixed;
@@ -75,61 +111,14 @@ padding-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.496);
 }
 
-
-.menu-items {
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.menu-items li {
-list-style: none;
-font-size: 20px;
-margin: 20px 30px;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-
-.nav-item {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.nav-item:hover {
-  text-decoration: none;
-}
-
-.nav-item p{
-  margin-top: 5px;
-  font-size: 12px;
-  font-weight: 400;
-}
-
-.menu-items a {
-text-decoration: none;
-color: rgb(255, 255, 255);
-font-weight: 500;
-transition: color 0.3s ease-in-out;
-}
-
-.menu-items a:hover {
-text-decoration:none;
-color: rgb(255, 165, 75);
-transition: color 0.1s ease-in-out;
-}
-
-.logo {
-order: 1;
-font-size: 26px;
-margin-bottom: 10px;
-}
-
 .special-text {
   color: #acf2ff;
 }
+
+.section-title {
+  font-size: 22px;
+}
+
 /* HERO SECTION */
 .hero-section {
   width: 100%;
@@ -544,6 +533,7 @@ cursor: pointer;
 .about-section{
   display: flex;
   justify-content: space-between;
+  align-items: center;
   width: 90%;
   margin: auto;
 }    
@@ -631,8 +621,22 @@ cursor: pointer;
   cursor: pointer;
 
 }
+.tile p {
+  font-size: 10px;
+  font-weight: bold;
+  align-self:flex-end;
+  margin:3px 5px;
+}
+.tile-image {
+  align-self: center;
+}
+/* =================== WORKS SECTION ================= */
 
-
+.works-section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 /* =================== CONTACT SECTION ================= */
 
 .contact-section{
@@ -900,6 +904,7 @@ padding: 30px;
   padding-right: 0;
 }
 
+
 .about-section{
   flex-direction: column;
   width: 100%;
@@ -919,31 +924,6 @@ padding: 30px;
 }
 .about-section *{
   text-align: center;
-}
-
-
-
-.product-section{
-width: 100%;
-}
-.product-section .product-title-section {
-  display: flex;
-  flex-direction: column;
-  padding: 0;
-  margin: 0;
-}
-
-.product-title-section .right {
-  display: none;
-  padding: 0;
-  margin: 0;
-}
-
-.product-section .product-title-section .left{
-
-  text-align: center;
-  margin: 0;
-  width: 100%;
 }
 
 
