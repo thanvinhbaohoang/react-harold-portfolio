@@ -64,7 +64,7 @@ padding-bottom: 10px;
   transition: 0.1s;
   color:#91eeff;
   transform: translateY(-2px);
-  text-shadow: 0 0 30px rgb(246, 255, 175);
+  text-shadow: 0 0 100px rgb(246, 255, 175);
   z-index: 999;
 }
 
@@ -563,10 +563,11 @@ cursor: pointer;
   width: 60%;
   display: flex;
   flex-direction: column;
-  justify-content: space-around;
+  justify-content: space-between;
+  /* align-items:stretch; */
 }
 .about-description {
-  margin-bottom: 30px;
+  margin: 20px 0px;
 }
 .about-section{
   display: flex;
@@ -594,7 +595,6 @@ cursor: pointer;
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  flex-basis: auto;
   justify-content:space-between;
 }
 
