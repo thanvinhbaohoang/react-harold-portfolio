@@ -544,15 +544,15 @@ cursor: pointer;
 .about-section{
   display: flex;
   justify-content: space-between;
-  width: 80%;
+  width: 90%;
   margin: auto;
 }    
 
 .about-image-container {
-  width: 250px;
+  width: 270px;
   align-self: center;
   justify-content: center;
-  height: 250px;
+  height: 270px;
   border: solid 2px white;
   border-radius: 8px;
   /* background-image: url("images/harold.jpg"); */
@@ -568,6 +568,7 @@ cursor: pointer;
   box-shadow: 2px 2px rgb(2, 30, 35);
   transform: rotate(3deg);
 }
+
 .about-description-and-resume{
   width: 60%;
   display: flex;
@@ -616,9 +617,9 @@ cursor: pointer;
   border: solid white 1px;
   box-shadow: rgb(255, 136, 0) 5px 5px;
   background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
-  margin: 20px 5px;
-  width: 22%;
-  height: 150px;
+  margin: 10px 2px;
+  width: 100px;
+  height: 100px;
   transition: 0.3s;
 }
 

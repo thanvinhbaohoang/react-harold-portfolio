@@ -78,6 +78,19 @@ function App() {
                 <div class='image-and-description'>
                     <div class = "about-image-container"></div>
                     <div class = 'about-description-and-resume'>
+                        <div class ="tiles" >
+                            <div class = "tile">
+                            </div>
+
+                            <div class = "tile">
+                            </div>
+
+                            <div class = "tile">
+                            </div>
+
+                            <div class = "tile">
+                            </div>
+                        </div>
                         <p class='about-description'> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
                             This ideological background reflects through my technical interests and thus, I am passionate about decentralized and Open-Source technology.
                         </p>
@@ -85,19 +98,6 @@ function App() {
                             <p>My Resume</p>
                         </div>
                     </div>
-                </div>
-                <div class ="tiles" >
-                        <div class = "tile">
-                        </div>
-
-                        <div class = "tile">
-                        </div>
-
-                        <div class = "tile">
-                        </div>
-
-                        <div class = "tile">
-                        </div>
                 </div>
                 
               
