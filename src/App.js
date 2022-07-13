@@ -131,12 +131,91 @@ function App() {
             </div>
         </section>
 
+        {/*========= EXPERIENCE SECTION ==========*/}
+        <section class='experience-section'>
+                    <h1 class='section-title'> Where I Have Worked At</h1>
+                    <div class='previous-jobs'>
+
+                    </div>
+
+                    <div class='skills-section'>
+
+                    </div>
+                </section>
 
         {/* ============= PROJECTS SECTION ========== */}
         <section class = "projects-section" id="works">
             <h1 class='section-title'> Take a look at my projects</h1>
-            <div class='main-projects'></div>
+            <h2>Featured Projects</h2>
+            <div class='featured-projects'>
+                <div class='featured-project-container'>
+                    <div class='featured-project-img'></div>
+                    <div class='featured-project-infos'>
+                        <div class='featured-project-tags'>
+                            Blockchain
+                        </div>
+                        <div class='featured-project-title'>
+                            Project Super Duper
+                        </div>
+                        <div class='featured-project-description-container'>
+                            <div class='featured-project-description'>
+                                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.                        </div>
+                    
+                            </div>
+                        <div class='featured-project-buttons'>
+                            <div>Github</div>
+                            <div>Site</div>
+                        </div>
+                </div>
+                
+                </div>
 
+                <div class='featured-project-container'>
+                    <div class='featured-project-img'></div>
+                    <div class='featured-project-infos'>
+                        <div class='featured-project-tags'>
+                            Blockchain
+                        </div>
+                        <div class='featured-project-title'>
+                            Project Super Duper
+                        </div>
+                        <div class='featured-project-description-container'>
+                            <div class='featured-project-description'>
+                                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.                        </div>
+                    
+                            </div>
+                        <div class='featured-project-buttons'>
+                            <div>Github</div>
+                            <div>Site</div>
+                        </div>
+                </div>
+                
+                </div>
+
+                <div class='featured-project-container'>
+                    <div class='featured-project-img'></div>
+                    <div class='featured-project-infos'>
+                        <div class='featured-project-tags'>
+                            Blockchain
+                        </div>
+                        <div class='featured-project-title'>
+                            Project Super Duper
+                        </div>
+                        <div class='featured-project-description-container'>
+                            <div class='featured-project-description'>
+                                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.                        </div>
+                    
+                            </div>
+                        <div class='featured-project-buttons'>
+                            <div>Github</div>
+                            <div>Site</div>
+                        </div>
+                </div>
+                
+                </div>
+            </div>
+
+            <h2>Other Projects</h2>
             <div class='small-projects'>
                 <div class = 'small-project-container'>
                     <div class='small-project-img'></div>
@@ -165,7 +244,7 @@ function App() {
                         <div class='code-button'>Code</div>
                     </div>
                 </div>
-                
+
                 <div class = 'small-project-container'>
                     <div class='small-project-img'></div>
                     <div class='smalll-project-infos'> 
@@ -183,18 +262,7 @@ function App() {
             </div>
         </section>
 
-        {/*========= EXPERIENCE SECTION ==========*/}
-        <section class='experience-section'>
-            <h1 class='section-title'> Where I Have Worked At</h1>
-            <div class='previous-jobs'>
-
-            </div>
-
-            <div class='skills-section'>
-
-            </div>
-        </section>
-
+       
         {/* ============ CONTACT ============= */}
         <div class ="contact-section" id="contact">
             <div class ="contact-left">
