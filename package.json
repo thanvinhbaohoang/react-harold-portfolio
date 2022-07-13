@@ -2,7 +2,7 @@
   "name": "haroldthanportfolio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "http://thanvinhbaohoang.github.io/react-harold-portfolio",
+  "homepage": "haroldthan.me",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "dependencies": {

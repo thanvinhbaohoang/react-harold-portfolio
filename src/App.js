@@ -12,8 +12,6 @@ import cyber from './images/cyber.webp';
 function App() {
   return (
     <div className="App">
-      
-
         <div class='social-media-strip'>
             <div class='social-media-icons'>
                 <FaInstagram class='social-media-icon'/>
@@ -61,11 +59,12 @@ function App() {
                             <li>Digital Artist</li>
                             <li>Junior Pentester</li>
                             <li>VR Developer</li>
-
                         </ul>
                     </div>
                 </div>     
-                
+                <div class="resume-box">
+                    <p>My Resume</p>
+                </div>
 
             </div>
 
@@ -108,9 +107,7 @@ function App() {
                         <p class='about-description'> Hello, my name is Harold Than and I am a <b>Computer Student</b> at <b>Dartmouth College</b>. I am an avid reader of Austrian Economics and Libertarian Philosophy.
                             This ideological background reflects through my technical interests and thus, I am passionate about decentralized and Open-Source technology.
                         </p>
-                        <div class="resume-box">
-                            <p>My Resume</p>
-                        </div>
+                        
                     </div>
                 </div>
                 
