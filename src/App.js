@@ -62,9 +62,15 @@ function App() {
                         </ul>
                     </div>
                 </div>     
-                <div class="resume-box">
-                    <p>My Resume</p>
+                <div class="hero-buttons">
+                    <div class="resume-box">
+                        <p>My Resume</p>
+                    </div>
+                    <div class="contact-box">
+                        <p>Contact Me</p>
+                    </div>
                 </div>
+              
 
             </div>
 
