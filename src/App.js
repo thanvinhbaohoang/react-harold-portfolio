@@ -134,11 +134,27 @@ function App() {
         {/*========= EXPERIENCE SECTION ==========*/}
         <section class='experience-section'>
                     <h1 class='section-title'> Where I Have Worked At</h1>
-                    <div class='previous-jobs'>
+                    <div class='work-history'>
+                        <div class='work-names'>
+                            <li> Dartmouth College</li>
+                            <li> Thayer Machine Shop</li>
+                            <li> Cable's Makerspace</li>
+                            <li> Secret Network</li>
 
+                        </div>
+                        <div class='work-infos'>
+                            <div class='job-title'> Engineer @ Dartmouth College</div>
+                            <div class='job-period'> May 2018 - Present</div>
+                            <div class='job-description'> 
+                                <li>VP at Dartmouth Libertarians</li>
+                                <li>VP at Kappa Pi Kappa</li>
+                                <li>TA at MakerSpace</li>
+                                <li>TA at Machineshop</li>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class='skills-section'>
+                    <div class='skills-tiles'>
 
                     </div>
                 </section>
