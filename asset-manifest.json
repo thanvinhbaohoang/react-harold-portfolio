@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/react-harold-portfolio/static/css/main.7295badb.css",
-    "main.js": "/react-harold-portfolio/static/js/main.a2ef945b.js",
-    "static/js/787.d8c6f364.chunk.js": "/react-harold-portfolio/static/js/787.d8c6f364.chunk.js",
-    "static/media/harold.jpg": "/react-harold-portfolio/static/media/harold.0476562e308992a97830.jpg",
-    "static/media/web3.webp": "/react-harold-portfolio/static/media/web3.649bf4313f8cd2b4877b.webp",
-    "static/media/cyber.webp": "/react-harold-portfolio/static/media/cyber.b2e00e6cee346a7ad9a8.webp",
-    "static/media/virtual.webp": "/react-harold-portfolio/static/media/virtual.009fef1ce2f2b1c06d0c.webp",
-    "static/media/doge.webp": "/react-harold-portfolio/static/media/doge.2df6b108a874a43a2f2f.webp",
-    "index.html": "/react-harold-portfolio/index.html",
-    "main.7295badb.css.map": "/react-harold-portfolio/static/css/main.7295badb.css.map",
-    "main.a2ef945b.js.map": "/react-harold-portfolio/static/js/main.a2ef945b.js.map",
-    "787.d8c6f364.chunk.js.map": "/react-harold-portfolio/static/js/787.d8c6f364.chunk.js.map"
+    "main.css": "/haroldthan.me/static/css/main.7295badb.css",
+    "main.js": "/haroldthan.me/static/js/main.b541e8ec.js",
+    "static/js/787.d8c6f364.chunk.js": "/haroldthan.me/static/js/787.d8c6f364.chunk.js",
+    "static/media/harold.jpg": "/haroldthan.me/static/media/harold.0476562e308992a97830.jpg",
+    "static/media/web3.webp": "/haroldthan.me/static/media/web3.649bf4313f8cd2b4877b.webp",
+    "static/media/cyber.webp": "/haroldthan.me/static/media/cyber.b2e00e6cee346a7ad9a8.webp",
+    "static/media/virtual.webp": "/haroldthan.me/static/media/virtual.009fef1ce2f2b1c06d0c.webp",
+    "static/media/doge.webp": "/haroldthan.me/static/media/doge.2df6b108a874a43a2f2f.webp",
+    "index.html": "/haroldthan.me/index.html",
+    "main.7295badb.css.map": "/haroldthan.me/static/css/main.7295badb.css.map",
+    "main.b541e8ec.js.map": "/haroldthan.me/static/js/main.b541e8ec.js.map",
+    "787.d8c6f364.chunk.js.map": "/haroldthan.me/static/js/787.d8c6f364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7295badb.css",
-    "static/js/main.a2ef945b.js"
+    "static/js/main.b541e8ec.js"
   ]
 }
