@@ -2,7 +2,7 @@
   "name": "haroldthanportfolio2",
   "version": "0.1.0",
   "private": true,
-  "homepage": "haroldthan.me",
+  "homepage": "https://haroldthan.me",
   "predeploy": "npm run build",
   "deploy": "gh-pages -d build",
   "dependencies": {
