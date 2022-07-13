@@ -42,10 +42,23 @@ function App() {
         </div>
 
 
-        <div class="hero-section" id ='hero'>
+        <section class="hero-section" id ='hero'>
+            <div class='floating-icons'>
+                <div class='floating-icon-container'>
+                    <FaInstagram class='floating-icon'/>
+                </div>
+                <div class='floating-icon-container'>
+                    <FaLinkedinIn class='floating-icon'/>
+                </div>
+                <div class='floating-icon-container'>
+                    <FaGithub class='floating-icon'/>
+                </div>
+                <div class='floating-icon-container'>
+                    <FaYoutube class='floating-icon'/>
+                </div>
+            </div>
             <div class="hero-header">
                 <p class = "special-text">Hi, my name is</p> 
-
                 <div class="title">
                     <span class="block"></span>
                     <h1>Harold Than<span></span></h1>
@@ -74,16 +87,15 @@ function App() {
 
             </div>
 
-        </div>
+        </section>
 
 
 
         {/* <!-- About Me Section--> */}
-        <div class = "about-section" id="about">
+        <section class = "about-section" id="about">
             <h1 class='section-title'>About Me</h1>
 
             <div class = "about-content">
-
                 <div class='image-and-description'>
                     <div class = "about-image-container">
                         <img class= 'about-image' src={harold} width='100%'/>
@@ -116,22 +128,74 @@ function App() {
                         
                     </div>
                 </div>
-                
+            </div>
+        </section>
+
+
+        {/* ============= PROJECTS SECTION ========== */}
+        <section class = "projects-section" id="works">
+            <h1 class='section-title'> Take a look at my projects</h1>
+            <div class='main-projects'></div>
+
+            <div class='small-projects'>
+                <div class = 'small-project-container'>
+                    <div class='small-project-img'></div>
+                    <div class='smalll-project-infos'> 
+                        <div class='small-project-title'>My Project #1</div>
+                        <div class='small-project-description'>
+                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
+                        </div>
+                    </div>
+                    <div class='small-project-buttons'>
+                        <div class='site-button'>Site</div>
+                        <div class='code-button'>Code</div>
+                    </div>
+                </div>
               
+                <div class = 'small-project-container'>
+                    <div class='small-project-img'></div>
+                    <div class='smalll-project-infos'> 
+                        <div class='small-project-title'>My Project #1</div>
+                        <div class='small-project-description'>
+                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
+                        </div>
+                    </div>
+                    <div class='small-project-buttons'>
+                        <div class='site-button'>Site</div>
+                        <div class='code-button'>Code</div>
+                    </div>
+                </div>
+                
+                <div class = 'small-project-container'>
+                    <div class='small-project-img'></div>
+                    <div class='smalll-project-infos'> 
+                        <div class='small-project-title'>My Project #1</div>
+                        <div class='small-project-description'>
+                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
+                        </div>
+                    </div>
+                    <div class='small-project-buttons'>
+                        <div class='site-button'>Site</div>
+                        <div class='code-button'>Code</div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        {/*========= EXPERIENCE SECTION ==========*/}
+        <section class='experience-section'>
+            <h1 class='section-title'> Where I Have Worked At</h1>
+            <div class='previous-jobs'>
 
             </div>
 
+            <div class='skills-section'>
 
-        
-        </div>
+            </div>
+        </section>
 
-        <div class = "works-section" id="works">
-            <h1 class='section-title'> My Works</h1>
-
-            <div class='main-works'></div>
-            <div class='other-works'></div>
-        </div>
-
+        {/* ============ CONTACT ============= */}
         <div class ="contact-section" id="contact">
             <div class ="contact-left">
                 <div class = "contact-title">

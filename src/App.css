@@ -25,13 +25,19 @@
 
 
 body {
+  display: flex;
   font-family: "Poppins", sans-serif;
   box-sizing: border-box;
   background: rgb(9, 15, 20);
   color: rgba(255, 255, 255, 1);
   font-size: 110%;
 }
-
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
 
 h1, h2, h3 {
   color: rgb(255, 255, 255);
@@ -114,6 +120,9 @@ padding-bottom: 10px;
   color: #acf2ff;
 }
 
+section{
+  margin-bottom: 300px;
+}
 .section-title {
   font-size: 22px;
 }
@@ -339,87 +348,59 @@ padding-bottom: 10px;
 }
 
 /* Floating Icons Section */
-.floating-icons i{
-  font-size: 56px;
-  transition: 10s;
-  color: rgba(255, 255, 255, 0.496);
-}
-.floating-icons i:hover{
-  transition: 0s;
-  color: rgb(255, 164, 66);
-  text-shadow: rgb(255, 211, 164) 0 0 80px;
-  transform: scale(1.1);
-}
 
-
-.floating-icons{
+.floating-icon-container{
+  border: 1px solid white;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
   align-items: center;
+  transition: 0.2s;
+}
+.floating-icon-container:hover{
+  transform: rotate(20deg);
+  transition: 0.3s;
+  cursor:pointer;
+  color:#ff8432;
+  border-color: #ff8432;
+  box-shadow: rgb(255, 141, 47) 3px 3px 1000px;
 }
 
-.floating-icons div {
-  position: absolute;
-  width: 50px;
-  height: 50px;
-  transition: 10s;
-  margin-top: 80px;
+.floating-icon{
+  font-size: 24px;
 }
 
+/* INSTAGRAM */
 .floating-icons div:nth-child(1) {
-  top: 25%;
-  left: 25%;
+  position: absolute;
+  right: 40%;
+  top: 100px;
+  animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+/* LinkedIn */
+.floating-icons div:nth-child(2) {
+  position: absolute;
+  right: 30%;
+  top: 650px;
+  animation: float 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+/* GitHub */
+.floating-icons div:nth-child(3) {
+  position: absolute;
+  right: 20%;
+  top: 400px;
   animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+/* Youtube */
+.floating-icons div:nth-child(4) {
+  position: absolute;
+  right: 10%;
+  top: 200px;
+  animation: float 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 
-.floating-icons div:nth-child(2) {
-  top: 70%;
-  left: 55%;
-  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(3) {
-  top: 50%;
-  left: 35%;
-  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(4) {
-  top: 60%;
-  left: 65%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(5) {
-  top: 12%;
-  left: 44%;
-  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(6) {
-  top: 32%;
-  left: 84%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(7) {
-  top: 32%;
-  left: 64%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(8) {
-  top: 80%;
-  left: 22%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(9) {
-  top: 10%;
-  left: 15%;
-  animation: float 5.5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(10) {
-  top: 60%;
-  left: 20%;
-  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
-.floating-icons div:nth-child(11) {
-  top: 60%;
-  left: 80%;
-  animation: float 5.2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
-}
 
 @keyframes float {
   0%{
@@ -557,7 +538,7 @@ cursor: pointer;
 /* About Section Start */
 .about-section{
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   width: 90%;
   margin: auto;
@@ -610,7 +591,7 @@ cursor: pointer;
 .about-content  .image-and-description {
   display: flex;
   flex-direction: row;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
   margin: 30px;
 }
@@ -650,20 +631,84 @@ cursor: pointer;
   font-size: 10px;
   font-weight: bold;
   align-self:flex-end;
-  margin:3px 5px;
+  margin:3px 15px;
 }
 .tile-image {
   align-self: center;
 }
-/* =================== WORKS SECTION ================= */
+/* =================== PROJETS SECTION ================= */
+.projects-section{
+  margin-top: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 80%;
+}
 
-.works-section{
+.small-projects{
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-wrap: wrap;
+  width: 80%;
 }
-/* =================== CONTACT SECTION ================= */
 
+.small-project-container{
+  display: flex;
+  flex-direction: column;
+  justify-content: baseline;
+  align-items: center;
+  width: 360px;
+  height: 450px;
+  border: solid 1px white;
+  border-radius: 8px;
+  margin: 10px;
+}
+
+.small-project-img{
+  border-radius: 8px;
+  margin: 10px;
+  width: 90%;
+  height: 50%;
+  border: solid 1px white;
+}
+.smalll-project-infos{
+  width: 90%;
+  align-self: center;
+  justify-self: center;
+  height: 30%;
+}
+.small-project-title{
+  font-weight: 500;
+  font-size: 22px;
+  margin: 5px 0px;
+  display: flex;
+  align-self: baseline;
+}
+.small-project-description{
+  color: rgb(172, 172, 172);
+}
+
+.small-project-buttons {
+  display: flex;
+  justify-content: space-between;
+  width: 90%;
+}
+
+.small-project-buttons div{
+  border: solid 1px white;
+  width: 45%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+.site-button{
+}
+
+/* =================== CONTACT SECTION ================= */
 .contact-section{
   display: flex;
   /* justify-content: space-around; */
