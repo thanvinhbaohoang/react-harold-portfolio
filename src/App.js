@@ -57,7 +57,10 @@ function App() {
                     <FaYoutube class='floating-icon'/>
                 </div>
             </div>
+
+
             <div class="hero-header">
+                
                 <p class = "special-text">Hi, my name is</p> 
                 <div class="title">
                     <span class="block"></span>
