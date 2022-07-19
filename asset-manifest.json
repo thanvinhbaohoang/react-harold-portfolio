@@ -1,20 +1,21 @@
 {
   "files": {
-    "main.css": "/static/css/main.c09d630b.css",
-    "main.js": "/static/js/main.f9680682.js",
+    "main.css": "/static/css/main.a74acfa7.css",
+    "main.js": "/static/js/main.e4c87866.js",
     "static/js/787.d8c6f364.chunk.js": "/static/js/787.d8c6f364.chunk.js",
     "static/media/harold.jpg": "/static/media/harold.0476562e308992a97830.jpg",
     "static/media/web3.webp": "/static/media/web3.649bf4313f8cd2b4877b.webp",
     "static/media/cyber.webp": "/static/media/cyber.b2e00e6cee346a7ad9a8.webp",
     "static/media/virtual.webp": "/static/media/virtual.009fef1ce2f2b1c06d0c.webp",
     "static/media/doge.webp": "/static/media/doge.2df6b108a874a43a2f2f.webp",
+    "static/media/charlie-henson-no-logo-abst-468.jpg": "/static/media/charlie-henson-no-logo-abst-468.8f48cac8449ff7d1d4a4.jpg",
     "index.html": "/index.html",
-    "main.c09d630b.css.map": "/static/css/main.c09d630b.css.map",
-    "main.f9680682.js.map": "/static/js/main.f9680682.js.map",
+    "main.a74acfa7.css.map": "/static/css/main.a74acfa7.css.map",
+    "main.e4c87866.js.map": "/static/js/main.e4c87866.js.map",
     "787.d8c6f364.chunk.js.map": "/static/js/787.d8c6f364.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c09d630b.css",
-    "static/js/main.f9680682.js"
+    "static/css/main.a74acfa7.css",
+    "static/js/main.e4c87866.js"
   ]
 }
