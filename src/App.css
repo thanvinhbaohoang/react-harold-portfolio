@@ -367,7 +367,7 @@ section{
 }
 
 .floating-icon{
-  font-size: 24px;
+  font-size: 30px;
   transition: 0.5s ease-out;
 }
 
@@ -383,9 +383,9 @@ section{
   animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(1):hover{
-  color:#ffa365;
-  border-color: #ffa365;
-  box-shadow:#ffa365 3px 3px 10000px;
+  color:#ff7c44;
+  border-color: #ff7c44;
+  box-shadow:#ff7c44 3px 3px 10000px;
 }
 
 /* LinkedIn */
@@ -420,9 +420,9 @@ section{
   animation: float 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
 .floating-icons div:nth-child(4):hover {
-  color:#ff7878;
-  border-color: #ff7878;
-  box-shadow:#ff7878 3px 3px 1000px;
+  color:#f01d1d;
+  border-color: #f74343;
+  box-shadow:#f01d1d 3px 3px 1000px;
 }
 
 
@@ -685,9 +685,19 @@ cursor: pointer;
 }
 
 .featured-project-img{
-  border: solid 1px white;
+  background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
   height: 360px;
   width: 600px;
+  object-fit: fill;
+  filter: sepia(60%);
+  transition: 0.3s ease-in-out
+}
+
+.featured-project-img:hover{
+  filter: none;
+  transition: 0.2s ease;
+  cursor: pointer;
+  transform: scale(1.03);
 }
 
 .featured-project-infos{
@@ -712,7 +722,9 @@ cursor: pointer;
   width: 120%;
   display: flex;
   justify-content: flex-end;
-  border: solid 1px white;
+  /* border: solid 1px white; */
+  background: linear-gradient(49.21deg, rgb(97, 97, 162) 20%, rgba(112, 142, 196, 0.5) 58.46%, rgba(95, 153, 149, 0.5) 97.05%)    ;
+  z-index: 9999;
 }
 .featured-project-description{
   display: flex;
@@ -754,15 +766,41 @@ cursor: pointer;
   border: solid 1px rgba(255, 255, 255, 0.479);
   border-radius: 4px;
   margin: 10px;
+  background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.103) 19.87%, rgba(134, 168, 231, 0.144) 58.46%, rgba(145, 234, 228, 0.123) 97.05%)    ;
 }
 
-.small-project-img{
+.small-project-container:hover {
+  box-shadow: 10px 10px orange;
+  transform: translateY(-5px);
+  transition: 0.2s ease-in-out;
+  ;
+}
+.small-project-img-container {
   border-radius: 4px;
   margin: 10px;
+  transition: 0.1s;
   width: 90%;
   height: 50%;
   border: solid 1px white;
 }
+.small-project-img-container:hover {
+  transform: scale(1.01);
+  transition: 0.2s ease-in;
+}
+.small-project-container:hover .small-project-img{
+  filter: none;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor: pointer;
+}
+
+.small-project-img{
+  width: 100%;
+  height: 100%;
+  filter: blur(2px);
+  object-fit:cover;
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
 .smalll-project-infos{
   width: 90%;
   align-self: center;

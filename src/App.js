@@ -1,13 +1,13 @@
 /* eslint-disable jsx-a11y/alt-text */
 // import logo from './logo.svg';
-import { FaInstagram, FaLinkedinIn, FaGithub, FaYoutube} from "react-icons/fa";
+import {FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBitcoin, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
 import './App.css';
 import harold from './images/harold.jpg';
 import doge from './images/doge.webp';
 import web3 from './images/web3.webp';
 import virtual from './images/virtual.webp';
 import cyber from './images/cyber.webp';
-
+import pic from '/home/harold/Desktop/react-harold-portfolio/src/images/charlie-henson-no-logo-abst-468.jpg'
 
 function App() {
   return (
@@ -56,6 +56,15 @@ function App() {
                 <div class='floating-icon-container'>
                     <FaYoutube class='floating-icon'/>
                 </div>
+                {/* <div class='floating-icon-container'>
+                    <FaMonero class='floating-icon'/>
+                </div>
+                <div class='floating-icon-container'>
+                    <FaBitcoin class='floating-icon'/>
+                </div>
+                <div class='floating-icon-container'>
+                    <FaLinux class='floating-icon'/>
+                </div> */}
             </div>
 
 
@@ -166,9 +175,14 @@ function App() {
         <section class = "projects-section" id="works">
             <h1 class='section-title'> Take a look at my projects</h1>
             <h2>Featured Projects</h2>
+            
             <div class='featured-projects'>
+                
+
                 <div class='featured-project-container'>
-                    <div class='featured-project-img'></div>
+                    <div class='featured-project-img-container'>
+                        <img class= 'featured-project-img' src={pic} width='100%'/>
+                    </div>
                     <div class='featured-project-infos'>
                         <div class='featured-project-tags'>
                             Blockchain
@@ -182,15 +196,17 @@ function App() {
                     
                             </div>
                         <div class='featured-project-buttons'>
-                            <div>Github</div>
-                            <div>Site</div>
+                            <div><FaCode/> Code </div>
+                            <div><FaArrowAltCircleUp/>Site</div>
                         </div>
                 </div>
                 
                 </div>
 
                 <div class='featured-project-container'>
-                    <div class='featured-project-img'></div>
+                    <div class='featured-project-img-container'>
+                        <img class= 'featured-project-img' src={pic} width='100%'/>
+                    </div>
                     <div class='featured-project-infos'>
                         <div class='featured-project-tags'>
                             Blockchain
@@ -204,40 +220,53 @@ function App() {
                     
                             </div>
                         <div class='featured-project-buttons'>
-                            <div>Github</div>
-                            <div>Site</div>
+                            <div><FaCode/> Code </div>
+                            <div><FaArrowAltCircleUp/>Site</div>
                         </div>
                 </div>
                 
                 </div>
-
-                <div class='featured-project-container'>
-                    <div class='featured-project-img'></div>
-                    <div class='featured-project-infos'>
-                        <div class='featured-project-tags'>
-                            Blockchain
-                        </div>
-                        <div class='featured-project-title'>
-                            Project Super Duper
-                        </div>
-                        <div class='featured-project-description-container'>
-                            <div class='featured-project-description'>
-                                A minimal, dark blue theme for VS Code, Sublime Text, Atom, iTerm, and more. Available on Visual Studio Marketplace, Package Control, Atom Package Manager, and npm.                        </div>
-                    
-                            </div>
-                        <div class='featured-project-buttons'>
-                            <div>Github</div>
-                            <div>Site</div>
-                        </div>
-                </div>
-                
-                </div>
+              
             </div>
 
             <h2>Other Projects</h2>
             <div class='small-projects'>
                 <div class = 'small-project-container'>
-                    <div class='small-project-img'></div>
+                    <div class='small-project-img-container'>
+                        <img class= 'small-project-img' src={pic} width='100%'/>
+                    </div>
+                    <div class='smalll-project-infos'> 
+                        <div class='small-project-title'>My Project #1</div>
+                        <div class='small-project-description'>
+                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
+                        </div>
+                    </div>
+                    <div class='small-project-buttons'>
+                        <div class='site-button'>Site</div>
+                        <div class='code-button'>Code</div>
+                    </div>
+                </div>
+
+                <div class = 'small-project-container'>
+                    <div class='small-project-img-container'>
+                        <img class= 'small-project-img' src={pic} width='100%'/>
+                    </div>
+                    <div class='smalll-project-infos'> 
+                        <div class='small-project-title'>My Project #1</div>
+                        <div class='small-project-description'>
+                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
+                        </div>
+                    </div>
+                    <div class='small-project-buttons'>
+                        <div class='site-button'>Site</div>
+                        <div class='code-button'>Code</div>
+                    </div>
+                </div>
+
+                <div class = 'small-project-container'>
+                    <div class='small-project-img-container'>
+                        <img class= 'small-project-img' src={pic} width='100%'/>
+                    </div>
                     <div class='smalll-project-infos'> 
                         <div class='small-project-title'>My Project #1</div>
                         <div class='small-project-description'>
@@ -250,34 +279,7 @@ function App() {
                     </div>
                 </div>
               
-                <div class = 'small-project-container'>
-                    <div class='small-project-img'></div>
-                    <div class='smalll-project-infos'> 
-                        <div class='small-project-title'>My Project #1</div>
-                        <div class='small-project-description'>
-                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
-                        </div>
-                    </div>
-                    <div class='small-project-buttons'>
-                        <div class='site-button'>Site</div>
-                        <div class='code-button'>Code</div>
-                    </div>
-                </div>
-
-                <div class = 'small-project-container'>
-                    <div class='small-project-img'></div>
-                    <div class='smalll-project-infos'> 
-                        <div class='small-project-title'>My Project #1</div>
-                        <div class='small-project-description'>
-                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
-                        </div>
-                    </div>
-                    <div class='small-project-buttons'>
-                        <div class='site-button'>Site</div>
-                        <div class='code-button'>Code</div>
-                    </div>
-                </div>
-
+               
             </div>
         </section>
 
