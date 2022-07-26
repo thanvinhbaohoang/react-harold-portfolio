@@ -13,16 +13,27 @@ function App() {
   return (
     <div className="App">
         <div class='social-media-strip'>
-            <div class='social-media-icons'>
-                <FaInstagram class='social-media-icon'/>
-                <FaLinkedinIn class='social-media-icon'/>
-                <FaGithub class='social-media-icon'/>
-                <FaYoutube class='social-media-icon'/>
+            <div class='nav-icons'>
+                <div class='nav-icon-container'>
+                    <FaInstagram class='nav-icon'/>
+                </div>
+                <div class='nav-icon-container'>
+                    <FaLinkedinIn class='nav-icon'/>
+                </div>
+                <div class='nav-icon-container'>
+                    <FaGithub class='nav-icon'/>
+                </div>
+                <div class='nav-icon-container'>
+                    <FaYoutube class='nav-icon'/>
+                </div>
             </div>
-
         </div>
 
         <div class='nav-bar'>
+            <div class='nav-logo'>
+                <h1>HAROLD THAN</h1>
+            </div>
+
             <div class='nav-items'>
                 <a href ='#hero'>
                     <p class='nav-item'> Home </p>
@@ -36,15 +47,18 @@ function App() {
                 <a href ='#contact'>
                     <p class='nav-item'> Contact </p>
                 </a>
-              
             </div>
 
+         
+            <div class='nav-connect-button'>
+                <p> Let's Connect</p>
+            </div>
         </div>
 
 
         <section class="hero-section" id ='hero'>
             <div class='floating-icons'>
-                <div class='floating-icon-container'>
+                {/* <div class='floating-icon-container'>
                     <FaInstagram class='floating-icon'/>
                 </div>
                 <div class='floating-icon-container'>
@@ -55,15 +69,6 @@ function App() {
                 </div>
                 <div class='floating-icon-container'>
                     <FaYoutube class='floating-icon'/>
-                </div>
-                {/* <div class='floating-icon-container'>
-                    <FaMonero class='floating-icon'/>
-                </div>
-                <div class='floating-icon-container'>
-                    <FaBitcoin class='floating-icon'/>
-                </div>
-                <div class='floating-icon-container'>
-                    <FaLinux class='floating-icon'/>
                 </div> */}
             </div>
 
@@ -242,8 +247,8 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div class='site-button'>Site</div>
-                        <div class='code-button'>Code</div>
+                        <div><FaCode/> Code </div>
+                        <div><FaArrowAltCircleUp/>Site</div>
                     </div>
                 </div>
 
@@ -258,8 +263,8 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div class='site-button'>Site</div>
-                        <div class='code-button'>Code</div>
+                        <div><FaCode/> Code </div>
+                        <div><FaArrowAltCircleUp/>Site</div>
                     </div>
                 </div>
 
@@ -274,8 +279,8 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div class='site-button'>Site</div>
-                        <div class='code-button'>Code</div>
+                        <div><FaCode/> Code </div>
+                        <div><FaArrowAltCircleUp/>Site</div>
                     </div>
                 </div>
               

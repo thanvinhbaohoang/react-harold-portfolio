@@ -48,66 +48,57 @@ padding-bottom: 10px;
 }
 
 .nav-bar {
-  position: fixed;
-  top: 10px;
-  right: 10px;
+  position: absolute;
+  width: 90%;
+  top: 20px;
+  display: flex;
+  padding: 10px;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .nav-items {
+  width: 30%;
   display: flex;
-  flex-direction: column;
-  align-items: flex-end;
+  /* flex-direction: column; */
+  justify-content: space-between
 }
 .nav-item {
-  font-size: 14px;
-  margin: 10px;
+  font-size: 18px;
+  font-weight: 600;
   transition: 0.2s;
   color: rgba(255, 255, 255, 0.627);
   cursor: pointer;
 }
 .nav-item:hover{
   transition: 0.1s;
-  color:#91eeff;
-  transform: translateY(-2px);
-  text-shadow: 0 0 100px rgb(246, 255, 175);
+  color:white;
+  transform: translateY(-1px);
+  /* text-shadow: 0 0 100px rgb(246, 255, 175); */
   z-index: 999;
 }
 
-.nav-items::before {
-  content: "";
-  display: block;
-  width: 1px;
-  height: 40px;
-  margin: 0px 30px;
-  background-color: rgba(255, 255, 255, 0.496);
+.nav-connect-button{
+  border: solid white 1px;
+  padding: 20px;
+  font-weight: 600;
+  border-radius: 4px;
+}
+.nav-connect-button:hover{
+  background-color: rgba(0, 255, 234, 0.243);
+  transition: 0.2s;
+  cursor: pointer;
 }
 
-/* Social Media Strip */
+/* SOCIAL MEDIA STRIPS */
 .social-media-strip {
   position: fixed;
   bottom: 10px;
-  left: 20px;
-}
-.social-media-icons {
-  display: flex;
-  flex-direction: column;
-}
-.social-media-icon {
-  font-size: 18px;
-  margin: 10px;
-  transition: 0.2s;
-  color: rgba(255, 255, 255, 0.538);
-  cursor: pointer;
-}
-.social-media-icon:hover{
-  transition: 0.1s;
-  color: rgb(255, 181, 103);
-  transform: translateY(-2px);
-  text-shadow: 10px 10px 10px rgb(255, 255, 255);
-  z-index: 999;
+  left: 40px;
 }
 
-.social-media-icons::after {
+.nav-icons::after {
+  animation: float 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
   content: "";
   display: block;
   width: 1px;
@@ -116,12 +107,92 @@ padding-bottom: 10px;
   background-color: rgba(255, 255, 255, 0.496);
 }
 
+
+.nav-icons {
+  display: flex;
+  flex-direction: column;
+}
+
+.nav-icon-container{
+  margin: 5px;
+}
+
+.nav-icon-container{
+  border: 1px solid white;
+  width: 35px;
+  height: 35px;
+  display: flex;
+  border-radius: 50%;
+  justify-content: center;
+  align-items: center;
+  transition: 2s ease-out;
+  opacity: 0.8;
+  margin: 15px 0;
+}
+.nav-icon-container:hover{
+  transform: rotate(360deg);
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor:pointer;
+  background-color: #222;
+  opacity: 1;
+}
+
+.nav-icon{
+  font-size: 18px;
+  transition: 0.5s ease-out;
+}
+
+.nav-icon:hover{
+  font-size: 25px;
+  transition: 0.2s ease-out;
+}
+
+/* INSTAGRAM */
+.nav-icons div:nth-child(1) {
+  animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+.nav-icons div:nth-child(1):hover{
+  color:#ff7c44;
+  border-color: #ff7c44;
+  box-shadow:#ff7c44 3px 3px 10000px;
+}
+
+/* LinkedIn */
+.nav-icons div:nth-child(2) {
+  animation: float 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+.nav-icons div:nth-child(2):hover {
+  color:#91eeff;
+  border-color: #91eeff;
+  box-shadow:#91eeff 3px 3px 1000px;
+}
+/* GitHub */
+.nav-icons div:nth-child(3) {
+  animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+.nav-icons div:nth-child(3):hover {
+  color:#64EE85;
+  border-color: #64EE85;
+  box-shadow:#64EE85 3px 3px 1000px;
+}
+
+/* Youtube */
+.nav-icons div:nth-child(4) {
+  animation: float 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
+}
+.nav-icons div:nth-child(4):hover {
+  color:#f01d1d;
+  border-color: #f74343;
+  box-shadow:#f01d1d 3px 3px 1000px;
+}
+
+/* ========================================================================= */
 .special-text {
   color: #acf2ff;
 }
 
 section{
-  margin-bottom: 300px;
+  margin-bottom: 100px;
 }
 .section-title {
   font-size: 22px;
@@ -796,7 +867,7 @@ cursor: pointer;
 .small-project-img{
   width: 100%;
   height: 100%;
-  filter: blur(2px);
+  filter: blur(1px);
   object-fit:cover;
   transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
