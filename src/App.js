@@ -35,14 +35,14 @@ function App() {
             </div>
 
             <div class='nav-items'>
-                <a href ='#hero'>
-                    <p class='nav-item'> Home </p>
-                </a>
                 <a href ='#about'>
                     <p class='nav-item'> About </p>
                 </a>
                 <a href ='#works'>
-                    <p class='nav-item'> Works </p>
+                    <p class='nav-item'> Experience </p>
+                </a>
+                <a href ='#works'>
+                    <p class='nav-item'> Projects </p>
                 </a>
                 <a href ='#contact'>
                     <p class='nav-item'> Contact </p>
@@ -110,7 +110,7 @@ function App() {
 
         {/* <!-- About Me Section--> */}
         <section class = "about-section" id="about">
-            <h1 class='section-title'>About Me</h1>
+            <div class='section-title'>About Me</div>
 
             <div class = "about-content">
                 <div class='image-and-description'>
@@ -150,7 +150,7 @@ function App() {
 
         {/*========= EXPERIENCE SECTION ==========*/}
         <section class='experience-section'>
-                    <h1 class='section-title'> Where I Have Worked At</h1>
+                    <div class='section-title'> Where I Have Worked At</div>
                     <div class='work-history'>
                         <div class='work-names'>
                             <li> Dartmouth College</li>
@@ -178,12 +178,9 @@ function App() {
 
         {/* ============= PROJECTS SECTION ========== */}
         <section class = "projects-section" id="works">
-            <h1 class='section-title'> Take a look at my projects</h1>
-            <h2>Featured Projects</h2>
-            
+            <div class='section-title'> Take a look at my projects</div>            
             <div class='featured-projects'>
-                
-
+    
                 <div class='featured-project-container'>
                     <div class='featured-project-img-container'>
                         <img class= 'featured-project-img' src={pic} width='100%'/>
@@ -291,47 +288,16 @@ function App() {
        
         {/* ============ CONTACT ============= */}
         <div class ="contact-section" id="contact">
-            <div class ="contact-left">
-                <div class = "contact-title">
-                    <h1>Contact Me</h1>
-                    <p>I love creative and freelance work.</p>
-                </div>
-                <div class = "contact-boxes">
-                    <div class ="name-and-email">
-                        <input type="text" placeholder="Name" class = "contact-name"/>
-                        <input type="text" placeholder="Email"  class = "contact-email"/>
-                    </div>
-                    
-                    <input type="text" placeholder="Subject" class = "contact-subject"/>
-
-                    <textarea placeholder="Message" class= "contact-message"></textarea>
-                </div>
-
-
-                <div class = "submit-box">
-                    <input type="submit" class="contact-submit" value="Message Me!"/>
-                </div>
-
-            </div>
-
-
-            <div class = "contact-right">
-                <div class = "contact-card">
-                    <div class = "image-container">
-                    </div>
-                    <h3> Harold Than </h3>
-                    <div class ="info">
-                        <p> Email: thanvinhbaohoang@gmail.com</p>
-                        <p> Phone: (857)-308-9745</p>
-                        <p> Location: Boston, MA</p>
-                    </div>
-                        
-                </div>
-            
-            </div>
-            
+         <div class='section-title'> Contact Me</div>
+         <h1>Get In Touch</h1>
+         <p class='contact-description'>I am looking for opportunities to work in Web 3.0 and Crypto Development. Whether you have a project or just want to say hi, I am more than happy to connect ;) </p>
+         <div class='nav-connect-button'> Say Hello</div>
         </div>
-            
+
+        <footer>
+            <p>Designed and Built by Harold Than</p>
+            <p> Might have taken some inspiration and assets from Ethereum.org</p>
+        </footer>
     </div>
   );
 }
