@@ -880,7 +880,7 @@ cursor: pointer;
   box-shadow: 10px 10px orange;
   transform: translateY(-5px);
   transition: 0.2s ease-in-out;
-  ;
+  cursor: pointer;
 }
 .small-project-img-container {
   border-radius: 4px;
@@ -936,11 +936,19 @@ cursor: pointer;
   width: 45%;
   height: 50px;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
+  padding: 0 50px;
   border-radius: 8px;
 }
-.site-button{
+
+.small-project-buttons div:hover{
+  color: #91eeff;
+  border-color: #91eeff;
+  transition: 0.2s;
+  cursor: pointer;
+}
+.site-buttvon{
 }
 /* =============== EXPERIENC SECTION ============*/
 .work-history {

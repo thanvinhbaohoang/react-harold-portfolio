@@ -178,9 +178,11 @@ function App() {
 
         {/* ============= PROJECTS SECTION ========== */}
         <section class = "projects-section" id="works">
-            <div class='section-title'> Take a look at my projects</div>            
+            <div class='section-title'> Take a look at my projects</div>
+            
             <div class='featured-projects'>
-    
+                
+
                 <div class='featured-project-container'>
                     <div class='featured-project-img-container'>
                         <img class= 'featured-project-img' src={pic} width='100%'/>
@@ -244,11 +246,10 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div><FaCode/> Code </div>
-                        <div><FaArrowAltCircleUp/>Site</div>
+                        <div><FaCode/> </div>
+                        <div><FaArrowAltCircleUp/></div>
                     </div>
                 </div>
-
                 <div class = 'small-project-container'>
                     <div class='small-project-img-container'>
                         <img class= 'small-project-img' src={pic} width='100%'/>
@@ -260,11 +261,10 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div><FaCode/> Code </div>
-                        <div><FaArrowAltCircleUp/>Site</div>
+                        <div><FaCode/> </div>
+                        <div><FaArrowAltCircleUp/></div>
                     </div>
                 </div>
-
                 <div class = 'small-project-container'>
                     <div class='small-project-img-container'>
                         <img class= 'small-project-img' src={pic} width='100%'/>
@@ -276,11 +276,10 @@ function App() {
                         </div>
                     </div>
                     <div class='small-project-buttons'>
-                        <div><FaCode/> Code </div>
-                        <div><FaArrowAltCircleUp/>Site</div>
+                        <div><FaCode/> </div>
+                        <div><FaArrowAltCircleUp/></div>
                     </div>
                 </div>
-              
                
             </div>
         </section>
