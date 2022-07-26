@@ -26,7 +26,7 @@
 
 body {
   display: flex;
-  font-family: "Poppins", sans-serif;
+  font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
   background: rgb(22, 28, 48);
   /* background-image: radial-gradient(#dd00ff85 5%, transparent 10%),radial-gradient(#00b3ff3a 10%, transparent 5%); */
