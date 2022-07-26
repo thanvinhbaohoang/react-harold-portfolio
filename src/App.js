@@ -75,7 +75,7 @@ function App() {
 
             <div class="hero-header">
                 
-                <p class = "special-text">Hi, my name is</p> 
+                <div class = "special-text">Hi, my name is</div> 
                 <div class="title">
                     <span class="block"></span>
                     <h1>Harold Than<span></span></h1>
