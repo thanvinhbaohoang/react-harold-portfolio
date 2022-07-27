@@ -5,7 +5,7 @@
   text-decoration: none;
   scroll-behavior: smooth;
 }
-
+@import 'react-tabs/style/react-tabs.scss';
 /* Colored Scroll Bar CSS */
 ::-webkit-scrollbar {
     width: 5px;
@@ -956,8 +956,7 @@ cursor: pointer;
   transition: 0.2s;
   cursor: pointer;
 }
-.site-buttvon{
-}
+
 /* =============== EXPERIENC SECTION ============*/
 .work-history {
   display: flex;
@@ -971,6 +970,66 @@ cursor: pointer;
   justify-content: center;
   align-items: center;
 }
+/* RC TABS START */
+
+.rc-tabs {
+  border: solid white 1px;
+  background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%) !important;
+  border-radius: 8px;
+  width: 60%;
+  height: 400px;
+  margin-bottom: 100px;
+}
+.rc-tabs-tab {
+  padding: 10px;
+  width: 200px;
+  font-size: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.4) 19.87%, rgba(134, 168, 231, 0.3) 58.46%, rgba(145, 234, 228, 0.4) 97.05%) !important
+}
+
+.rc-tabs-tab .rc-tabs-tab-btn {
+  font-weight: 600;
+  font-size: 16px;
+  color: white;
+}
+
+.rc-tabs-tab:hover{
+  color:#53ffce !important;
+  background:#1e3e4a !important;
+  text-shadow: white 3px 3px 100px;
+}
+.rc-tabs-tab:hover .rc-tabs-tab-btn{ 
+  color:#53ffce !important;
+  transition: 0.2s ease-in-out;
+  color:#53ffce !important;
+  transform: translateY(-2px);
+}
+
+.rc-tabs-tab-active {
+  background:#142637aa !important;
+}
+.rc-tabs-tab-active .rc-tabs-tab-btn{
+  color: #00ffb7 !important;
+}
+
+.rc-tabs-ink-bar {
+  background:#53ffce !important
+}
+.rc-tabs-content-holder {
+  padding: 20px;
+  background:#2c3e5074;
+}
+.rc-tabs-content {
+  font-size: 18px
+}
+
+/* RC TABS STOP */
+
+
+// ==================================================================
 $midnight: #2c3e50;
 $clouds: #ecf0f1;
 input {

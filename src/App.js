@@ -8,6 +8,8 @@ import web3 from './images/web3.webp';
 import virtual from './images/virtual.webp';
 import cyber from './images/cyber.webp';
 import pic from '/home/harold/Desktop/react-harold-portfolio/src/images/charlie-henson-no-logo-abst-468.jpg'
+import Tabs, { TabPane } from 'rc-tabs';
+import '../node_modules/rc-tabs/assets/index.css';
 
 function App() {
 
@@ -151,68 +153,59 @@ function App() {
 
         {/*========= EXPERIENCE SECTION ==========*/}
         <section class='experience-section'>
-                    <div class='section-title'> Where I Have Worked At</div>
-                    <div class="row">
-  <div class="col">
-    <div class="tabs">
-      <div class="tab">
-        <input type="checkbox" id="chck1"/>
-        <label class="tab-label" for="chck1">Dartmouth College</label>
-        <div class="tab-content">
-            <ul>
-                <li>VP at Dartmouth Libertarians</li>
-                <li>VP at Kappa Pi Kappa</li>
-                <li>TA at MakerSpace</li>
-                <li>TA at Machineshop</li>  
-            </ul> 
-        </div>
-      </div>
+            <div class='section-title'> Where I Have Worked At</div>
+            <Tabs defaultActiveKey="2" tabPosition="left">
+        <TabPane tab="Dartmouth College" key="1">
+          Lorem ipsum dolor sit amet, id duis noster delectus vis, at agam purto atqui usu. Eu eum sale choro. Ne quot equidem conclusionemque sed. Ludus referrentur ex quo. Fuisset disputando consequuntur ad nec, qui praesent postulant efficiendi ut.
+        </TabPane>
+        <TabPane tab="Secret Lab" key="2">
+          Est vidit deseruisse in, mei ullum blandit maluisset ad. Ut sea iriure dolores. Vel tollit eirmod dolores ea, errem periculis usu ut. Eum alii soleat dissentiet ne. Ridens acsan an, ei eum solum pertinacia democritum.
+        </TabPane>
+        <TabPane tab="Dali Lab" key="3">
+          Facete fierent ea mel, id nec delectus invenire elaboraret. Vel illum mollis eu, sit in latine theophrastus, mei nulla suscipit comprehensam ad.
+        </TabPane>
+      </Tabs>
+      
+            <div class="col">
+                <div class="tabs">
+                <div class="tab">
+                    <input type="checkbox" id="chck1"/>
+                    <label class="tab-label" for="chck1">Dartmouth College</label>
+                    <div class="tab-content">
+                        <ul>
+                            <li>VP at Dartmouth Libertarians</li>
+                            <li>VP at Kappa Pi Kappa</li>
+                            <li>TA at MakerSpace</li>
+                            <li>TA at Machineshop</li>  
+                        </ul> 
+                    </div>
+                </div>
 
-      <div class="tab">
-        <input type="checkbox" id="chck2"/>
-        <label class="tab-label" for="chck2">Cable Makerspace</label>
-        <div class="tab-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                <div class="tab">
+                    <input type="checkbox" id="chck2"/>
+                    <label class="tab-label" for="chck2">Cable Makerspace</label>
+                    <div class="tab-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="checkbox" id="chck3"/>
+                    <label class="tab-label" for="chck3">Thayer Machine Shop</label>
+                    <div class="tab-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                    </div>
+                </div>
+                <div class="tab">
+                    <input type="checkbox" id="chck4"/>
+                    <label class="tab-label" for="chck4">Secret Labs Shop</label>
+                    <div class="tab-content">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+                    </div>
+                </div>
+            </div>
+    
         </div>
-      </div>
-      <div class="tab">
-        <input type="checkbox" id="chck3"/>
-        <label class="tab-label" for="chck3">Thayer Machine Shop</label>
-        <div class="tab-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-        </div>
-      </div>
-      <div class="tab">
-        <input type="checkbox" id="chck4"/>
-        <label class="tab-label" for="chck4">Secret Labs Shop</label>
-        <div class="tab-content">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-        </div>
-      </div>
-    </div>
-  </div>
-
-</div>
-                    {/* <div class='work-history'>
-                        <div class='work-names'>
-                            <li> Dartmouth College</li>
-                            <li> Thayer Machine Shop</li>
-                            <li> Cable's Makerspace</li>
-                            <li> Secret Network</li>
-
-                        </div>
-                        <div class='work-infos'>
-                            <div class='job-title'> Engineer @ Dartmouth College</div>
-                            <div class='job-period'> May 2018 - Present</div>
-                            <div class='job-description'> 
-                                <li>VP at Dartmouth Libertarians</li>
-                                <li>VP at Kappa Pi Kappa</li>
-                                <li>TA at MakerSpace</li>
-                                <li>TA at Machineshop</li>
-                            </div>
-                        </div>
-                    </div> */}
-
+                  
                     <div class='skills-tiles'>
 
                     </div>
