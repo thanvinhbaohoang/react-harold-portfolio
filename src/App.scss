@@ -973,25 +973,25 @@ cursor: pointer;
 .rc-tabs {
   border: none !important;
   // background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%) !important;
-  background: transparent !important;
+  background: linear-gradient(49.21deg, rgba(138, 138, 232, 0.137) 19.87%, rgba(134, 168, 231, 0.12) 58.46%, rgba(145, 234, 228, 0.147) 97.05%) !important; 
   border-radius: 4px;
   width: 60%;
 }
 .rc-tabs-tab {
   padding: 10px;
   width: 200px;
-  font-size: 12px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  background: linear-gradient(49.21deg, rgba(138, 138, 232, 0.137) 19.87%, rgba(134, 168, 231, 0.12) 58.46%, rgba(145, 234, 228, 0.147) 97.05%) !important
-  // background: rgba(0, 48, 38, 0.212) !important;
+  // background: linear-gradient(49.21deg, rgba(138, 138, 232, 0.137) 19.87%, rgba(134, 168, 231, 0.12) 58.46%, rgba(145, 234, 228, 0.147) 97.05%) !important
+  background: rgba(0, 48, 38, 0.212) !important;
 }
 
 .rc-tabs-tab .rc-tabs-tab-btn {
-  font-weight: 600;
-  font-size: 16px;
+  font-weight: 400;
+  font-size: 14px;
   color: rgba(255, 255, 255, 0.527);
+  transition: 0.1s ease-in;
 }
 
 .rc-tabs-tab:hover{
@@ -1011,6 +1011,8 @@ cursor: pointer;
 }
 .rc-tabs-tab-active .rc-tabs-tab-btn{
   color: #00ffb7 !important;
+  font-weight: bolder !important;
+  transition: 0.2s ease-in-out;
 }
 
 .rc-tabs-ink-bar {
