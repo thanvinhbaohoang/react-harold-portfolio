@@ -1,7 +1,7 @@
 /* eslint-disable jsx-a11y/alt-text */
 // import logo from './logo.svg';
 import {FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBitcoin, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
-import './App.css';
+import './App.scss';
 import harold from './images/harold.jpg';
 import doge from './images/doge.webp';
 import web3 from './images/web3.webp';
@@ -10,6 +10,7 @@ import cyber from './images/cyber.webp';
 import pic from '/home/harold/Desktop/react-harold-portfolio/src/images/charlie-henson-no-logo-abst-468.jpg'
 
 function App() {
+
   return (
     <div className="App">
         <div class='social-media-strip'>
@@ -58,7 +59,7 @@ function App() {
 
         <section class="hero-section" id ='hero'>
             <div class='floating-icons'>
-                {/* <div class='floating-icon-container'>
+                <div class='floating-icon-container'>
                     <FaInstagram class='floating-icon'/>
                 </div>
                 <div class='floating-icon-container'>
@@ -69,7 +70,7 @@ function App() {
                 </div>
                 <div class='floating-icon-container'>
                     <FaYoutube class='floating-icon'/>
-                </div> */}
+                </div>
             </div>
 
 
@@ -151,7 +152,42 @@ function App() {
         {/*========= EXPERIENCE SECTION ==========*/}
         <section class='experience-section'>
                     <div class='section-title'> Where I Have Worked At</div>
-                    <div class='work-history'>
+                    <div class="row">
+  <div class="col">
+    <div class="tabs">
+      <div class="tab">
+        <input type="checkbox" id="chck1"/>
+        <label class="tab-label" for="chck1">Dartmouth College</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis! askldasmlda,msdalsmdasldmfasldmfasldmfsldmfmadslf
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="chck2"/>
+        <label class="tab-label" for="chck2">Cable Makerspace</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="chck3"/>
+        <label class="tab-label" for="chck3">Thayer Machine Shop</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+        </div>
+      </div>
+      <div class="tab">
+        <input type="checkbox" id="chck4"/>
+        <label class="tab-label" for="chck4">Secret Labs</label>
+        <div class="tab-content">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
+        </div>
+      </div>
+    </div>
+  </div>
+
+</div>
+                    {/* <div class='work-history'>
                         <div class='work-names'>
                             <li> Dartmouth College</li>
                             <li> Thayer Machine Shop</li>
@@ -169,7 +205,7 @@ function App() {
                                 <li>TA at Machineshop</li>
                             </div>
                         </div>
-                    </div>
+                    </div> */}
 
                     <div class='skills-tiles'>
 
@@ -289,6 +325,7 @@ function App() {
         <div class ="contact-section" id="contact">
          <div class='section-title'> Contact Me</div>
          <h1>Get In Touch</h1>
+         <p>haroldthan@gmail.com</p>
          <p class='contact-description'>I am looking for opportunities to work in Web 3.0 and Crypto Development. Whether you have a project or just want to say hi, I am more than happy to connect ;) </p>
          <div class='nav-connect-button'> Say Hello</div>
         </div>
