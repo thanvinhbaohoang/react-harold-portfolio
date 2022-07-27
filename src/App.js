@@ -159,9 +159,15 @@ function App() {
         <input type="checkbox" id="chck1"/>
         <label class="tab-label" for="chck1">Dartmouth College</label>
         <div class="tab-content">
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsum, reiciendis! askldasmlda,msdalsmdasldmfasldmfasldmfsldmfmadslf
+            <ul>
+                <li>VP at Dartmouth Libertarians</li>
+                <li>VP at Kappa Pi Kappa</li>
+                <li>TA at MakerSpace</li>
+                <li>TA at Machineshop</li>  
+            </ul> 
         </div>
       </div>
+
       <div class="tab">
         <input type="checkbox" id="chck2"/>
         <label class="tab-label" for="chck2">Cable Makerspace</label>
@@ -178,7 +184,7 @@ function App() {
       </div>
       <div class="tab">
         <input type="checkbox" id="chck4"/>
-        <label class="tab-label" for="chck4">Secret Labs</label>
+        <label class="tab-label" for="chck4">Secret Labs Shop</label>
         <div class="tab-content">
           Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
         </div>
