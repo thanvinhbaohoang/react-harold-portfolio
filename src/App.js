@@ -171,46 +171,6 @@ function App() {
           Est vidit deseruisse in, mei ullum blandit maluisset ad. Ut sea iriure dolores. Vel tollit eirmod dolores ea, errem periculis usu ut. Eum alii soleat dissentiet ne. Ridens acsan an, ei eum solum pertinacia democritum.
         </TabPane>
       </Tabs>
-      
-            <div class="col">
-                <div class="tabs">
-                <div class="tab">
-                    <input type="checkbox" id="chck1"/>
-                    <label class="tab-label" for="chck1">Dartmouth College</label>
-                    <div class="tab-content">
-                        <ul>
-                            <li>VP at Dartmouth Libertarians</li>
-                            <li>VP at Kappa Pi Kappa</li>
-                            <li>TA at MakerSpace</li>
-                            <li>TA at Machineshop</li>  
-                        </ul> 
-                    </div>
-                </div>
-
-                <div class="tab">
-                    <input type="checkbox" id="chck2"/>
-                    <label class="tab-label" for="chck2">Cable Makerspace</label>
-                    <div class="tab-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="checkbox" id="chck3"/>
-                    <label class="tab-label" for="chck3">Thayer Machine Shop</label>
-                    <div class="tab-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-                    </div>
-                </div>
-                <div class="tab">
-                    <input type="checkbox" id="chck4"/>
-                    <label class="tab-label" for="chck4">Secret Labs Shop</label>
-                    <div class="tab-content">
-                    Lorem ipsum dolor sit amet consectetur adipisicing elit. A, in!
-                    </div>
-                </div>
-            </div>
-    
-        </div>
                   
                     <div class='skills-tiles'>
 
