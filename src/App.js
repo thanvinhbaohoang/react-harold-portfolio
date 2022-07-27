@@ -1,6 +1,6 @@
 /* eslint-disable jsx-a11y/alt-text */
 // import logo from './logo.svg';
-import {FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBitcoin, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
+import {FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
 import './App.scss';
 import harold from './images/harold.jpg';
 import doge from './images/doge.webp';
@@ -62,16 +62,16 @@ function App() {
         <section class="hero-section" id ='hero'>
             <div class='floating-icons'>
                 <div class='floating-icon-container'>
-                    <FaInstagram class='floating-icon'/>
+                    <FaMonero class='floating-icon'/>
                 </div>
                 <div class='floating-icon-container'>
-                    <FaLinkedinIn class='floating-icon'/>
+                    <FaEthereum class='floating-icon'/>
                 </div>
                 <div class='floating-icon-container'>
-                    <FaGithub class='floating-icon'/>
+                    <FaBtc class='floating-icon'/>
                 </div>
                 <div class='floating-icon-container'>
-                    <FaYoutube class='floating-icon'/>
+                    <FaLinux class='floating-icon'/>
                 </div>
             </div>
 
