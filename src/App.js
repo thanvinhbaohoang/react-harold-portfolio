@@ -164,6 +164,12 @@ function App() {
         <TabPane tab="Dali Lab" key="3">
           Facete fierent ea mel, id nec delectus invenire elaboraret. Vel illum mollis eu, sit in latine theophrastus, mei nulla suscipit comprehensam ad.
         </TabPane>
+        <TabPane tab="Cable Makerspace" key="4">
+          Est vidit deseruisse in, mei ullum blandit maluisset ad. Ut sea iriure dolores. Vel tollit eirmod dolores ea, errem periculis usu ut. Eum alii soleat dissentiet ne. Ridens acsan an, ei eum solum pertinacia democritum.
+        </TabPane>
+        <TabPane tab="Thayer Machine Shop" key="5">
+          Est vidit deseruisse in, mei ullum blandit maluisset ad. Ut sea iriure dolores. Vel tollit eirmod dolores ea, errem periculis usu ut. Eum alii soleat dissentiet ne. Ridens acsan an, ei eum solum pertinacia democritum.
+        </TabPane>
       </Tabs>
       
             <div class="col">
