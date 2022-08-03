@@ -1,7 +1,5 @@
 import mongoose, { Schema } from 'mongoose';
 
-
-
 const ProjectSchema = new Schema({
   imageURL: String,
   githubURL: String,
