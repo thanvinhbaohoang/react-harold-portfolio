@@ -9,20 +9,20 @@ class Projects extends Component {
         this.projectArrays = ({
             "1":{
                 imageURL: "URL1",
-                githubURL: "github.com",
-                renderURL: "render.com",
+                githubURL: "https://github.com",
+                renderURL: "https://render.com",
                 tags: "Blockchain",
                 title: "Super Spectre Wallet",
                 description: "Bla bla bla wallet for the coolest people only lol"
             },
             "2":{
                 imageURL: "URL1",
-                githubURL: "github.com",
-                renderURL: "render.com",
+                githubURL: "https://github.com",
+                renderURL: "https://render.com",
                 tags: "AR/VR",
                 title: "Super VR Headset",
                 description: "Bla bla bla VR Headset for the coolest people only lol"
-            },
+            }
         });
     };
 
@@ -32,7 +32,7 @@ class Projects extends Component {
                 {Object.entries(this.projectArrays).map(([id, project]) => (
                     <div class='featured-project-container'>
                     <div class='featured-project-img-container'>
-                    <img class= 'featured-project-img' width='100%'/>
+                    <img class= 'featured-project-img' width='100%' src={project.imageURL} alt=''/>
                     </div>
                     <div class='featured-project-infos'>
 
@@ -49,18 +49,41 @@ class Projects extends Component {
                                 {project.description}
                             </div>
                         </div>
-                        
+
                         <div class='featured-project-buttons'>
-                            <div><FaCode/> Code </div>
-                            <div><FaArrowAltCircleUp/>Site</div>
+                            <div><FaCode/> < a href={project.githubURL} target="_blank" alt = ''>Code</a> </div>
+                            <div><FaArrowAltCircleUp/>< a target="_blank" href={project.renderURL}>Site</a> </div>
                         </div>
                     </div>
                 </div>
-                ))},
+                ))}
            </div>
         )
     }
 
+    renderOtherProjects() {
+        return(
+            <div class='small-projects'>
+                {Object.entries(this.projectArrays).map(([id, project]) => (
+                    <div class = 'small-project-container'>
+                        <div class='small-project-img-container'>
+                            <img class= 'small-project-img' width='100%' src={project.imageURL}/>
+                        </div>
+                        <div class='smalll-project-infos'> 
+                            <div class='small-project-title'>{project.title}</div>
+                            <div class='small-project-description'>
+                                {project.description}
+                            </div>
+                        </div>
+                        <div class='small-project-buttons'>
+                            <div><FaCode/> < a href={project.githubURL} target="_blank">Code</a> </div>
+                            <div><FaArrowAltCircleUp/>< a href={project.renderURL} target="_blank">Site</a> </div>
+                        </div>
+                    </div>
+                ))}
+           </div>
+        )
+    }
 
 
     render() {
@@ -72,54 +95,8 @@ class Projects extends Component {
           
 
             <h2>Other Projects</h2>
-            <div class='small-projects'>
-                <div class = 'small-project-container'>
-                    <div class='small-project-img-container'>
-                        <img class= 'small-project-img' width='100%'/>
-                    </div>
-                    <div class='smalll-project-infos'> 
-                        <div class='small-project-title'>My Project #1</div>
-                        <div class='small-project-description'>
-                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
-                        </div>
-                    </div>
-                    <div class='small-project-buttons'>
-                        <div><FaCode/> </div>
-                        <div><FaArrowAltCircleUp/></div>
-                    </div>
-                </div>
-                <div class = 'small-project-container'>
-                    <div class='small-project-img-container'>
-                        <img class= 'small-project-img' width='100%'/>
-                    </div>
-                    <div class='smalll-project-infos'> 
-                        <div class='small-project-title'>My Project #1</div>
-                        <div class='small-project-description'>
-                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
-                        </div>
-                    </div>
-                    <div class='small-project-buttons'>
-                        <div><FaCode/> </div>
-                        <div><FaArrowAltCircleUp/></div>
-                    </div>
-                </div>
-                <div class = 'small-project-container'>
-                    <div class='small-project-img-container'>
-                    <img class= 'small-project-img' width='100%'/>
-                    </div>
-                    <div class='smalll-project-infos'> 
-                        <div class='small-project-title'>My Project #1</div>
-                        <div class='small-project-description'>
-                            blabla random stuffs to describe this project and stuffs. i love my jobs lol lmao, some long desc right here.
-                        </div>
-                    </div>
-                    <div class='small-project-buttons'>
-                        <div><FaCode/> </div>
-                        <div><FaArrowAltCircleUp/></div>
-                    </div>
-                </div>
-               
-            </div>
+            {this.renderOtherProjects()}
+
         </section>
         )
     }
