@@ -503,7 +503,7 @@ background-color: rgba(255, 255, 255, 0.257);
 }
 .floating-icons div:nth-child(2):hover {
   transition: 0.6s;
-  background: linear-gradient( #99f8ffc2 1%, #8c96f2af 35.46%, #d192f8c3 97.05%);
+  background: linear-gradient( #7bb0ff8e 0.5%, #8c96f2af 35.46%, #d192f8c3 97.05%);
   background-color: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
   border-color: #eacbff;
   box-shadow:#ecc3ff 3px 3px 1000px;
@@ -519,6 +519,7 @@ background-color: rgba(255, 255, 255, 0.257);
   transition: 0.6s;
   background: linear-gradient( #fbff01cc 5%, #E5C554 35.46%, #E48901 97.05%);
   border-color: #fff478;
+  color: white;
   box-shadow:#fbff82 3px 3px 1000px;
 }
 /* Youtube */
@@ -771,6 +772,38 @@ cursor: pointer;
 
 .skill-tiles{
   display: flex;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.skill-icon-container{
+  border: 1px solid white;
+  display: flex;
+  flex-direction: column;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  border-radius: 12px;
+  justify-content: center;
+  align-items: center;
+  transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.skill-icon-container:hover{
+  transform:translateY(-4px);
+  transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+  cursor:pointer;
+  filter: blur(0);
+}
+/* skill Icons Section */
+.skill-icon{
+  background-color: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
+  font-size: 34px;
+  transition: 0.5s ease-out;
+}
+.skill-icon:hover{
+  font-size: 46px;
+  transition: 0.2s ease-out;
 }
 /* =================== PROJECTS SECTION ================= */
 .projects-section{
