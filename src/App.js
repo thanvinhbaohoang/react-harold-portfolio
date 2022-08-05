@@ -32,6 +32,7 @@ function App() {
             <p>Designed and Built by Harold Than</p>
             <p> Might have taken some inspiration and assets from Ethereum.org</p>
         </footer>
+        
     </div>
   );
 }
