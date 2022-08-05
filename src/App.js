@@ -6,6 +6,7 @@ import NavBar from "./components/NavBar";
 import SocialMediaStrip from './components/SocialMediaStrip';
 import Hero from "./components/Hero";
 import About from "./components/About";
+import Skills from './components/Skills';
 import Experience from "./components/Experience";
 import Contact from "./components/Contact";
 import Projects from "./components/Projects";
@@ -19,6 +20,7 @@ function App() {
         <Hero/>
         {/* <!-- About Me Section--> */}
         <About/>
+        <Skills/>
         {/*========= EXPERIENCE SECTION ==========*/}
         <Experience/>
         {/* ============= PROJECTS SECTION ========== */}

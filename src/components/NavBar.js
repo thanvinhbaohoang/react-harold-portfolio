@@ -26,7 +26,7 @@ class NavBar extends Component {
 
          
             <div class='nav-connect-button'>
-                <p> Let's Connect</p>
+                <p> Coffee :) </p>
             </div>
         </div>
         )

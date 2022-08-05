@@ -23,9 +23,13 @@
   background:#77ffd9;
 }
 
-
+a {
+  color: white;
+}
 body {
   display: flex;
+  justify-content: center;
+  align-items: center;
   font-family: "Ubuntu", sans-serif;
   box-sizing: border-box;
   background: rgb(22, 28, 48);
@@ -89,6 +93,7 @@ padding-bottom: 10px;
 }
 
 .nav-connect-button{
+  color: white;
   animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
   border: solid white 1px;
   padding: 20px 30px;
@@ -163,39 +168,39 @@ padding-bottom: 10px;
 }
 
 /* INSTAGRAM */
-.nav-icons div:nth-child(1) {
+.nav-icons a:nth-child(1) {
   animation: float 3s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
-.nav-icons div:nth-child(1):hover{
+.nav-icons a:nth-child(1):hover{
   color:#ff7c44;
   border-color: #ff7c44;
   box-shadow:#ff7c44 3px 3px 10000px;
 }
 
 /* LinkedIn */
-.nav-icons div:nth-child(2) {
+.nav-icons a:nth-child(2) {
   animation: float 4s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
-.nav-icons div:nth-child(2):hover {
+.nav-icons a:nth-child(2):hover {
   color:#91eeff;
   border-color: #91eeff;
   box-shadow:#91eeff 3px 3px 1000px;
 }
 /* GitHub */
-.nav-icons div:nth-child(3) {
+.nav-icons a:nth-child(3) {
   animation: float 5s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
-.nav-icons div:nth-child(3):hover {
+.nav-icons a:nth-child(3):hover {
   color:#64EE85;
   border-color: #64EE85;
   box-shadow:#64EE85 3px 3px 1000px;
 }
 
 /* Youtube */
-.nav-icons div:nth-child(4) {
+.nav-icons a:nth-child(4) {
   animation: float 6s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
 }
-.nav-icons div:nth-child(4):hover {
+.nav-icons a:nth-child(4):hover {
   color:#f01d1d;
   border-color: #f74343;
   box-shadow:#f01d1d 3px 3px 1000px;
@@ -207,6 +212,10 @@ padding-bottom: 10px;
 }
 
 section{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
   margin-bottom: 100px;
   /* background-color: rgba(8, 28, 43, 0.373); */
   padding: 40px;
@@ -236,6 +245,7 @@ background-color: rgba(255, 255, 255, 0.257);
 
 /* HERO SECTION */
 .hero-section {
+  position: relative;
   width: 100%;
   height: 100vh;
   display: flex;
@@ -772,23 +782,27 @@ cursor: pointer;
 
 .skill-tiles{
   display: flex;
-  width: 60%;
+  width: 70%;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
 }
 
 .skill-icon-container{
+  margin: 10px;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
-  width: 80px;
-  height: 80px;
+  font-size: 12px;
+  width: 120px;
+  height: 120px;
   display: flex;
-  border-radius: 12px;
+  border-radius: 8px;
   justify-content: center;
   align-items: center;
   transition: 0.2s cubic-bezier(0.075, 0.82, 0.165, 1);
 }
+
 .skill-icon-container:hover{
   transform:translateY(-4px);
   transition: 0.5s cubic-bezier(0.175, 0.885, 0.32, 1.275);
@@ -798,11 +812,12 @@ cursor: pointer;
 /* skill Icons Section */
 .skill-icon{
   background-color: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
-  font-size: 34px;
+  font-size: 48px;
   transition: 0.5s ease-out;
+  margin-bottom: 10px;
 }
 .skill-icon:hover{
-  font-size: 46px;
+  font-size: 62px;
   transition: 0.2s ease-out;
 }
 /* =================== PROJECTS SECTION ================= */
@@ -882,30 +897,41 @@ cursor: pointer;
   width: 90%;
 }
 
-.featured-project-buttons div{
+.featured-project-button {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
   border: solid 1px white;
   width: 45%;
   height: 50px;
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
   align-items: center;
   padding: 0 50px;
   border-radius: 8px;
 }
-
-.featured-project-buttons div:hover{
-  color: #91eeff;
-  border-color: #91eeff;
-  transition: 0.2s;
-  cursor: pointer;
+.featured-project-button * {
+  margin: 0 3px;
 }
+.featured-project-button:visited {
+  text-decoration: none; 
+}
+.featured-project-button:hover{
+    color: #53ffce;
+    transition:0.2s;
+    border: solid 1px #53ffce;
+    box-shadow: #53ffce 5px 5px;
+    cursor: pointer;
+  }
 
 .small-projects{
   display: flex;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 80%;
+  width: 90%;
 }
 
 .small-project-container{
@@ -918,13 +944,13 @@ cursor: pointer;
   border: solid 1px rgba(255, 255, 255, 0.479);
   border-radius: 4px;
   margin: 10px;
+  transition: 0.3s ease;
   background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.103) 19.87%, rgba(134, 168, 231, 0.144) 58.46%, rgba(145, 234, 228, 0.123) 97.05%)    ;
 }
 
 .small-project-container:hover {
-  box-shadow: 10px 10px orange;
-  transform: translateY(-5px);
-  transition: 0.2s ease-in-out;
+  transform: scale(1.03);
+  transition: 0.2s;
   cursor: pointer;
 }
 .small-project-img-container {
@@ -968,29 +994,6 @@ cursor: pointer;
   color: rgb(172, 172, 172);
 }
 
-.small-project-buttons {
-  display: flex;
-  justify-content: space-between;
-  width: 90%;
-}
-
-.small-project-buttons div{
-  border: solid 1px white;
-  width: 45%;
-  height: 50px;
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  padding: 0 50px;
-  border-radius: 8px;
-}
-
-.small-project-buttons div:hover{
-  color: #91eeff;
-  border-color: #91eeff;
-  transition: 0.2s;
-  cursor: pointer;
-}
 
 /* =============== EXPERIENC SECTION ============*/
 .work-history {
@@ -1236,4 +1239,43 @@ flex-direction: column;
 align-items: center;
 justify-content: center;
 padding: 30px;
+}
+
+
+@media (max-width: 1000px) {
+  html, body {
+    overflow-x: hidden;
+  }
+  body {
+    position: relative
+  }
+
+  section{
+    width: 100%;
+  }
+  .nav-bar {
+    display: none;
+  }
+  .floating-icons {
+    display: none;
+  }
+  .social-media-strip {
+    position: absolute;
+    top: 63vh;
+    left: 50%;
+    z-index: 99999;
+  }
+  .nav-icons::after {
+    display: none;
+  }
+  .nav-icons {
+    flex-direction: row;
+    top: 50%;
+    left: 50%;
+    transform: translate(-53%, -50%);
+  }
+  .nav-icon-container {
+    margin: 23px;
+  }
+
 }

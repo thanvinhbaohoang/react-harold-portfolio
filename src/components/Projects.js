@@ -1,5 +1,5 @@
 import React, { Component } from "react";
-import {FaPython,FaReact, FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
+import {FaPython,FaReact, FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum, FaLinux, FaCode, FaSitemap} from "react-icons/fa";
 import {IoLogoJavascript} from "react-icons/io";
 import {DiUnitySmall,DiBootstrap,DiTerminal, DiReact,DiGithubBadge, DiJsBadge, DiLinux ,DiMongodb, DiPhotoshop,DiPython, DiJavascript} from "react-icons/di";
 
@@ -17,6 +17,14 @@ class Projects extends Component {
             },
             "2":{
                 imageURL: "URL1",
+                githubURL: "https://github.com",
+                renderURL: "https://render.com",
+                tags: "AR/VR",
+                title: "Super VR Headset",
+                description: "Bla bla bla VR Headset for the coolest people only lol"
+            },
+            "3":{
+                imageURL: "URL3",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
@@ -51,8 +59,16 @@ class Projects extends Component {
                         </div>
 
                         <div class='featured-project-buttons'>
-                            <div><FaCode/> < a href={project.githubURL} target="_blank" alt = ''>Code</a> </div>
-                            <div><FaArrowAltCircleUp/>< a target="_blank" href={project.renderURL}>Site</a> </div>
+                            < a href={project.githubURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                <div><FaGithub/></div> 
+                                <div>Code</div>
+                            </a>
+
+                            < a href={project.renderURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                <div><FaSitemap/></div> 
+                                <div> Site</div>
+                            </a> 
+
                         </div>
                     </div>
                 </div>
@@ -75,9 +91,17 @@ class Projects extends Component {
                                 {project.description}
                             </div>
                         </div>
-                        <div class='small-project-buttons'>
-                            <div><FaCode/> < a href={project.githubURL} target="_blank">Code</a> </div>
-                            <div><FaArrowAltCircleUp/>< a href={project.renderURL} target="_blank">Site</a> </div>
+                        <div class='featured-project-buttons'>
+                            < a href={project.githubURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                <div><FaGithub/></div> 
+                                <div>Code</div>
+                            </a>
+
+                            < a href={project.renderURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                <div><FaSitemap/></div> 
+                                <div> Site</div>
+                            </a> 
+
                         </div>
                     </div>
                 ))}
