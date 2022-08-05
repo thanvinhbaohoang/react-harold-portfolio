@@ -256,9 +256,9 @@ background-color: rgba(255, 255, 255, 0.257);
 
 .hero-section .hero-header {
     width: 300px;
-    height: 300px;
+    height: 150px;
     position: absolute;
-    top: 60%;
+    top: 50%;
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);    
@@ -1249,9 +1249,9 @@ padding: 30px;
   body {
     position: relative
   }
-
   section{
     width: 100%;
+    z-index: 10;
   }
   .nav-bar {
     display: none;
@@ -1259,11 +1259,15 @@ padding: 30px;
   .floating-icons {
     display: none;
   }
+  .hero-section .hero-header{
+    z-index: 1;
+  }
   .social-media-strip {
     position: absolute;
-    top: 63vh;
+    height:0;
+    top: 62vh;
     left: 50%;
-    z-index: 99999;
+    z-index: 12;
   }
   .nav-icons::after {
     display: none;
@@ -1271,6 +1275,7 @@ padding: 30px;
   .nav-icons {
     flex-direction: row;
     top: 50%;
+    z-index: 2;
     left: 50%;
     transform: translate(-53%, -50%);
   }
@@ -1278,4 +1283,17 @@ padding: 30px;
     margin: 23px;
   }
 
+  .tiles {
+    display: none;
+  }
+  .about-content  .image-and-description {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .image-and-description .about-image-container {
+    transform: none;
+    box-shadow: 5px 5px  #ff8000 ;
+    margin-bottom: 30px;
+  }
 }

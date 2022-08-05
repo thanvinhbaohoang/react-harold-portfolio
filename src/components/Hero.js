@@ -20,7 +20,6 @@ class Hero extends Component {
 
 
             <div class="hero-header">
-                
                 <div class = "special-text">Hi, my name is</div> 
                 <div class="title">
                     <span class="block"></span>
