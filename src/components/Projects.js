@@ -83,12 +83,13 @@ class Projects extends Component {
                 {Object.entries(this.projectArrays).map(([id, project]) => (
                     <div class = 'small-project-container'>
                         <div class='small-project-img-container'>
+                        <div class='small-project-tags'>
+                                {project.tags}
+                            </div>
                             <img class= 'small-project-img' src={project.imageURL}/>
                         </div>
                         <div class='smalll-project-infos'> 
-                        <div class='featured-project-tags'>
-                                {project.tags}
-                            </div>
+                       
                             <div class='small-project-title'>{project.title}</div>
                             <div class='small-project-description'>
                                 {project.description}
