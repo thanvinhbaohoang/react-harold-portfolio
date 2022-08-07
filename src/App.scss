@@ -141,8 +141,8 @@ padding-bottom: 10px;
 
 .nav-icon-container{
   border: 1px solid white;
-  width: 35px;
-  height: 35px;
+  width: 38px;
+  height: 38px;
   display: flex;
   border-radius: 50%;
   justify-content: center;
@@ -769,7 +769,7 @@ cursor: pointer;
 
 .featured-project-container {
   display: flex;
-  margin-bottom: 50px;
+  margin: 10px 10px
 }
 
 .featured-project-img{
@@ -797,6 +797,9 @@ cursor: pointer;
   z-index: 999;
 }
 .featured-project-tags{
+  border-radius: 8px;
+  padding: 10px;
+  background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.514) 19.87%, rgba(134, 168, 231, 0.479) 58.46%, rgba(145, 234, 228, 0.486) 97.05%)    ;
 }
 
 .featured-project-title{
@@ -822,7 +825,7 @@ cursor: pointer;
 }
 .featured-project-buttons {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   width: 90%;
 }
 
@@ -860,7 +863,7 @@ cursor: pointer;
   justify-content: space-around;
   align-items: center;
   flex-wrap: wrap;
-  width: 90%;
+  width: 80%;
 }
 
 .small-project-container{
@@ -868,8 +871,8 @@ cursor: pointer;
   flex-direction: column;
   justify-content: baseline;
   align-items: center;
-  width: 360px;
-  height: 450px;
+  width: 320px;
+  height: 420px;
   border: solid 1px rgba(255, 255, 255, 0.479);
   border-radius: 4px;
   margin: 10px;
@@ -1229,4 +1232,42 @@ padding: 30px;
     margin-bottom: 30px;
   }
 
+ 
+  .featured-project-container {
+    margin-bottom: 50px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border: solid white 1px;
+    width: 90vh;
+    height: 400px;
+  }
+  .featured-project-infos{
+    position: absolute;
+    margin:0 ;
+    width: 80%;
+    height: 300px;
+    justify-content: space-around;
+    align-items:flex-start;
+  }
+
+  .featured-project-img-container{
+    width: 100%;
+    height: 100%;
+  }
+  .featured-project-img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    filter: brightness(0.3);
+  }
+  .featured-project-description-container{
+    background: none;
+    justify-content: flex-start;
+    padding: 0;
+  }
+  .featured-project-description{
+    margin: 0;
+    padding: 0;
+  }
 }

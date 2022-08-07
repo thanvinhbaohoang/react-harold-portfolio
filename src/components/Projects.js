@@ -8,28 +8,28 @@ class Projects extends Component {
         super(props);
         this.projectArrays = ({
             "1":{
-                imageURL: "URL1",
+                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "Blockchain",
                 title: "Super Spectre Wallet",
-                description: "Bla bla bla wallet for the coolest people only lol"
+                description: "Bla bla bla wallet for the coolest asd asd asd asd fasd fasdf asdf asdfawsd fasdf asd fasdfasa sdpeople only lol"
             },
             "2":{
-                imageURL: "URL1",
+                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
                 title: "Super VR Headset",
-                description: "Bla bla bla VR Headset for the coolest people only lol"
+                description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
             },
             "3":{
-                imageURL: "URL3",
+                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
                 title: "Super VR Headset",
-                description: "Bla bla bla VR Headset for the coolest people only lol"
+                description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
             }
         });
     };
@@ -39,38 +39,38 @@ class Projects extends Component {
             <div class='featured-projects'>
                 {Object.entries(this.projectArrays).map(([id, project]) => (
                     <div class='featured-project-container'>
-                    <div class='featured-project-img-container'>
-                    <img class= 'featured-project-img' width='100%' src={project.imageURL} alt=''/>
-                    </div>
-                    <div class='featured-project-infos'>
-
-                        <div class='featured-project-tags'>
-                            {project.tags}
+                        <div class='featured-project-img-container'>
+                        <img class= 'featured-project-img' src={project.imageURL} alt=''/>
                         </div>
+                        <div class='featured-project-infos'>
 
-                        <div class='featured-project-title'>
-                            {project.title}
-                        </div>
+                            <div class='featured-project-tags'>
+                                {project.tags}
+                            </div>
 
-                        <div class='featured-project-description-container'>
-                            <div class='featured-project-description'>
-                                {project.description}
+                            <div class='featured-project-title'>
+                                {project.title}
+                            </div>
+
+                            <div class='featured-project-description-container'>
+                                <div class='featured-project-description'>
+                                    {project.description}
+                                </div>
+                            </div>
+
+                            <div class='featured-project-buttons'>
+                                < a href={project.githubURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                    <div><FaGithub/></div> 
+                                    <div>Code</div>
+                                </a>
+
+                                < a href={project.renderURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
+                                    <div><FaSitemap/></div> 
+                                    <div> Site</div>
+                                </a> 
+
                             </div>
                         </div>
-
-                        <div class='featured-project-buttons'>
-                            < a href={project.githubURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
-                                <div><FaGithub/></div> 
-                                <div>Code</div>
-                            </a>
-
-                            < a href={project.renderURL} class='featured-project-button' target="_blank" rel="noopener noreferrer">
-                                <div><FaSitemap/></div> 
-                                <div> Site</div>
-                            </a> 
-
-                        </div>
-                    </div>
                 </div>
                 ))}
            </div>
@@ -83,9 +83,12 @@ class Projects extends Component {
                 {Object.entries(this.projectArrays).map(([id, project]) => (
                     <div class = 'small-project-container'>
                         <div class='small-project-img-container'>
-                            <img class= 'small-project-img' width='100%' src={project.imageURL}/>
+                            <img class= 'small-project-img' src={project.imageURL}/>
                         </div>
                         <div class='smalll-project-infos'> 
+                        <div class='featured-project-tags'>
+                                {project.tags}
+                            </div>
                             <div class='small-project-title'>{project.title}</div>
                             <div class='small-project-description'>
                                 {project.description}
