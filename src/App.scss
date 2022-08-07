@@ -116,6 +116,7 @@ padding-bottom: 10px;
   position: fixed;
   bottom: 10px;
   left: 60px;
+  z-index: 999;
 }
 
 .nav-icons::after {
@@ -218,10 +219,9 @@ section{
   align-items: center;
   flex-direction: column;
   margin-bottom: 100px;
-  /* background-color: rgba(8, 28, 43, 0.373); */
   padding: 40px;
-  /* border: solid rgba(255, 255, 255, 0.36) ; */
   border-radius: 8px;
+  width: 100vh;
 }
 .section-title::after ,.section-title::before{
 animation: float 2s cubic-bezier(0.68, -0.55, 0.265, 1.55) ;
@@ -558,78 +558,6 @@ background-color: rgba(255, 255, 255, 0.257);
   }
 }
 
-.logo {
-  display: flex;
-  padding: 10px 10px;
-  text-align: center;
-}
-.logo h1 {
-  margin-left: 10px;
-  color: rgb(255, 255, 255);
-}
-
-.nav-center{
-  z-index: 4;
-  display: flex;
-  margin: auto;
-}
-
-.nav-center .menu {
-  display: flex;
-}
-
-.nav-center li{
-  list-style-type: none;
-  padding: 20px 30px;
-  margin-left: 10px;
-}
-
-.nav-center li:hover{
-  color:aquamarine;
-  box-shadow: white 5px 5px;
-}
-
-.home-left {    
-  margin: auto;
-  display: flex;
-  flex-direction: column;
-  width:50%;
-  height: 100%;
-  padding: 30px 30px;
-  margin-bottom: 50px;
-}
-
-.home-left .home-header-container{
-  color: rgb(255, 255, 255);
-  display: flex;
-  width: 100%;
-  font-size: 16px;
-  text-align: center;
-  justify-content: center;
-  padding:20px;
-  margin: 0;
-}
-
-.home-left .cta{
-  display: flex;
-  width: 80%;
-  padding:30px;
-  margin: auto;
-}
-
-.home .cta .image-box {
-  display: flex;
-  width: 125px;
-  height: 125px;
-  padding-right: 30px;
-  margin: auto 0;
-}
-.home-left .cta .description{
-  display: flex;
-  justify-content: flex-start;
-  margin: auto;
-  text-align: center;
-}
 .hero-buttons {
   display: flex;
   align-items: center;
@@ -785,18 +713,18 @@ cursor: pointer;
   display: flex;
   width: 70%;
   flex-wrap: wrap;
-  justify-content: space-between;
+  justify-content: space-around;
   align-items: center;
 }
 
 .skill-icon-container{
-  margin: 10px;
+  margin: 5px;
   border: 1px solid white;
   display: flex;
   flex-direction: column;
   font-size: 12px;
-  width: 120px;
-  height: 120px;
+  width: 100px;
+  height: 100px;
   display: flex;
   border-radius: 8px;
   justify-content: center;
@@ -996,13 +924,13 @@ cursor: pointer;
 }
 
 
-/* =============== EXPERIENC SECTION ============*/
+/* =============== EXPERIENCE SECTION ============*/
 .work-history {
   display: flex;
 }
 
 .experience-section {
-  width: 80%;
+  width: 60%;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -1058,11 +986,9 @@ cursor: pointer;
 }
 .rc-tabs-tab {
   padding: 10px;
-  width: 200px;
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  // background: linear-gradient(49.21deg, rgba(138, 138, 232, 0.137) 19.87%, rgba(134, 168, 231, 0.12) 58.46%, rgba(145, 234, 228, 0.147) 97.05%) !important
   background: rgba(0, 48, 38, 0.212) !important;
 }
 
@@ -1098,6 +1024,7 @@ cursor: pointer;
   background:#53ffce !important
 }
 .rc-tabs-content-holder {
+  width: 65%;
   padding: 20px;
   border-left: solid rgba(255, 255, 255, 0.332) 0.5px !important;
 
@@ -1225,8 +1152,8 @@ input:checked {
 
 .contact-description {
   color: rgba(255, 255, 255, 0.616);
-  margin: 50px;
-  width: 500px;
+  margin:50px;
+  width: 45vh;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -1268,7 +1195,7 @@ padding: 30px;
     height:0;
     top: 65vh;
     left: 50%;
-    z-index: 12;
+    z-index: 99999;
   }
   .nav-icons::after {
     display: none;
@@ -1276,12 +1203,16 @@ padding: 30px;
   .nav-icons {
     flex-direction: row;
     top: 50%;
-    z-index: 2;
+    z-index: 9999;
     left: 50%;
     transform: translate(-53%, -50%);
   }
   .nav-icon-container {
     margin: 23px;
+  }
+
+  .skill-tiles {
+    width: 30%;
   }
 
   .tiles {
