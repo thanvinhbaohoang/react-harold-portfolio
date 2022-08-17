@@ -118,6 +118,14 @@ var otherProjects = ({
         tags: "Software",
         title: "Sudoku In C",
         description: "Sudoku Solver Program written in C"
+    },
+    "12":{
+        imageURL: " ",
+        githubURL: "https://github.com",
+        renderURL: "https://render.com",
+        tags: "Software",
+        title: "Viberti Part Of Speech",
+        description: "Simple Hidden Markove Model Viterbi Algorithm for tagging part of speech in sentences"
     }
     
 });
