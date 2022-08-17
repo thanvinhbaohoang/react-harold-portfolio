@@ -28,10 +28,10 @@ class About extends Component {
                                 <img class= 'tile-image' src={web3} width='100%'/>
                             </div>
 
-                            <div class = "tile">
+                            <a class='tile' href="https://docs.google.com/presentation/d/1MDf6mNO4vXUD4PmzNfNRgtRQ_8hs7VX_psIm7ynzspU/edit#slide=id.g119da0e7613_1_25" target="_blank" rel="noopener noreferrer">
                                 <p> AR/VR</p>
                                 <img class= 'tile-image' src={virtual} width='100%'/>
-                            </div>
+                            </a>
 
                             <div class = "tile">
                                 <p> Cybersecurity</p>

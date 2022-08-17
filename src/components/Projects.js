@@ -5,42 +5,34 @@ import {DiUnitySmall,DiBootstrap,DiTerminal, DiReact,DiGithubBadge, DiJsBadge, D
 
 var featuredProjects = ({
     "1":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-        githubURL: "https://github.com",
-        renderURL: "https://render.com",
-        tags: "WebDev",
-        title: "Harold Than Portfolio",
-        description: "A simple instagram clone using Web 3.0 Framework and Smart Contracts (Solidity)."
-    },
-    "2":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
-        githubURL: "https://github.com",
-        renderURL: "https://render.com",
-        tags: "Blockchain",
-        title: "Spectre Wallet",
-        description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
-    },
-    "3":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: "https://blog.voltage.cloud/content/images/2021/02/1500x500.jpeg",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "Blockchain",
         title: "BTCPayServer",
-        description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
+        description: "Running my own Server with BTCPay and getting local Hanover Shops to start accepting Bitcoin (in place of VISA and Square)"
     },
-    "4":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+    "2":{
+        imageURL: "https://github.com/thanvinhbaohoang/project-dartmart/blob/main/dartmart.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "React Native App",
         title: "DartMart",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
-    }
+        description: "A Dartmouth College specific food delivery app with DUO 2-FA Authentication"
+    },
+    "3":{
+        imageURL: "https://github.com/thanvinhbaohoang/spectre-wallet/raw/main/readme_imgs/wallets.png",
+        githubURL: "https://github.com",
+        renderURL: "https://render.com",
+        tags: "Blockchain",
+        title: "Spectre Wallet",
+        description: "A Crypto Wallet Web-App and React-Native-App Designed and Implemented using Bitcore-lib"
+    },
 });
 
 var otherProjects = ({
     "0":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "Web 3.0",
@@ -48,84 +40,84 @@ var otherProjects = ({
         description: "A simple instagram clone using Web 3.0 Framework and Smart Contracts (Solidity)."
     },
     "1":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: "https://github.com/thanvinhbaohoang/react-native-youtube/blob/main/youtubeclone.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "WebDev",
+        tags: "Web App",
         title: "Youtube Clone",
-        description: "Bla bla bla wallet for the coolest asd asd asd asd fasd fasdf asdf asdfawsd fasdf asd fasdfasa sdpeople only lol"
+        description: "Youtube Clone using React Native and YoutubeAPI"
     },
     "2":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: "",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "WebDev",
+        tags: "Web App",
         title: "Online Notes",
-        description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
+        description: "Online Note Taking App with Draggable Notes"
     },
     "4":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: "https://github.com/thanvinhbaohoang/Is-She-Into-You/blob/main/IsSheIntoYou.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://is-she-into-you.onrender.com/",
-        tags: "WebDev",
+        tags: "Web App",
         title: "Is She Into You?",
-        description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
+        description: "Pure CSS and HTML Card 'Game' Based On Youtuber's SimplyExplained Video of the same name"
     },
     "5":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "WebDev",
+        tags: "AR/VR",
         title: "Boids Deep Sea Simulation",
-        description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
+        description: "A Deep Sea VR Cage Diving Experience with Schools Of Fish behavior simulated with Boids Algorithm"
     },
     "6":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "AR/VR",
         title: "Ad-VR-Tise",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        description: "3D Consensual Advertisement Model with Interactive UI for the mostly unexplored VR Metaverse ads space"
     },
     "7":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "AR/VR",
         title: "GuitAR Hero",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        description: "Learn to play real guitar through a Guitar Hero Game using Augmented Reality"
     },
     "8":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "AR/VR",
+        tags: "Unity3D",
         title: "SpooderMan",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        description: "Swing Around the city skyline and beat up bean-people ('oof') as Spooderman [Copyright Infringement Not Intended]"
     },
     "9":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "Other",
+        tags: "Software",
         title: "Web Search Engine",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        description: "Web Search Engine programmed in C with use of Crawler, Indexer and Querier"
     },
     "10":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "NLP",
-        title: "IvySentiment",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        title: "Ivy Sentiment",
+        description: "Data Analysis through Web-Scraping Reddit and Twitter to get the general sentiments of each Ivy League College Online"
     },
     "11":{
-        imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+        imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
-        tags: "Software Design",
+        tags: "Software",
         title: "Sudoku In C",
-        description: "Bla bla bla VR Headset for thasdsd fawedf asdf adsf asdf asdfasd fe coolest pas d asdads asd a sdasd  asd asdasd eople only lol"
+        description: "Sudoku Solver Program written in C"
     }
     
 });
@@ -136,7 +128,7 @@ class Projects extends Component {
 
         this.projectArrays = ({
             "1":{
-                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+                imageURL: " ",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "Blockchain",
@@ -144,7 +136,7 @@ class Projects extends Component {
                 description: "Bla bla bla wallet for the coolest asd asd asd asd fasd fasdf asdf asdfawsd fasdf asd fasdfasa sdpeople only lol"
             },
             "2":{
-                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+                imageURL: " ",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
@@ -152,7 +144,7 @@ class Projects extends Component {
                 description: "Bla bla bla VR Headset for tad sada asdfasd fasdfsdafasdf asdf asdf asdf asdf asdfsd asd asd he coolest people only lol"
             },
             "3":{
-                imageURL: "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b6/Image_created_with_a_mobile_phone.png/1200px-Image_created_with_a_mobile_phone.png",
+                imageURL: " ",
                 githubURL: "https://github.com",
                 renderURL: "https://render.com",
                 tags: "AR/VR",

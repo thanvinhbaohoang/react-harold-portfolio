@@ -794,8 +794,8 @@ cursor: pointer;
   background: linear-gradient(49.21deg, rgba(127, 127, 213, 0.2) 19.87%, rgba(134, 168, 231, 0.2) 58.46%, rgba(145, 234, 228, 0.2) 97.05%)    ;
   height: 360px;
   width: 600px;
-  object-fit: fill;
-  filter: sepia(60%);
+  object-fit: cover;
+  filter:grayscale(0.7);
   transition: 0.3s ease-in-out
 }
 
