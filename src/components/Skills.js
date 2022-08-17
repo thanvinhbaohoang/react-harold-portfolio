@@ -2,17 +2,31 @@
 
 
 import React, { Component } from "react";
-import {FaPython,FaReact, FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
-import {IoLogoJavascript} from "react-icons/io";
+import {FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum} from "react-icons/fa";
 import {DiUnitySmall,DiBootstrap,DiTerminal, DiReact,DiGithubBadge, DiJsBadge, DiLinux ,DiMongodb, DiPhotoshop,DiPython, DiJavascript} from "react-icons/di";
 
+var skillsArray = [DiReact, DiUnitySmall, DiJsBadge, DiLinux, DiMongodb, DiPhotoshop, DiPython, FaBtc, FaEthereum, FaMonero, FaGithub]
 
 class Skills extends Component {
+
+    // renderSkillsTiles() {
+    //     return(
+    //         <div class='skills'>
+    //             for (let i = 0; i < skillsArray.length; i++) {
+    //                 <div class='skill-icon-container'>
+    //                         <skillsArray[i] class='skill-icon'/>
+    //                         <p>React</p>
+    //                 </div>
+    //             }
+    //         </div>
+    //     )
+    // }
     render() {
         return (
       <section class='skills-section'>
         <div class='section-title'>Skills That I Have</div>
         <div class= 'skill-tiles'>
+
             <div class='skill-icon-container'>
                 <DiReact class='skill-icon'/>
                 <p>React</p>
@@ -35,16 +49,20 @@ class Skills extends Component {
                 <p>Unity3D</p>
             </div>
             <div class='skill-icon-container'>
-                <DiPython class='skill-icon'/>
-                <p>React</p>
+                <DiJavascript class='skill-icon'/>
+                <p>JavaScript</p>
             </div>
             <div class='skill-icon-container'>
-                <DiPython class='skill-icon'/>
-                <p>React</p>
+                <DiMongodb class='skill-icon'/>
+                <p>MongoDB</p>
             </div>
             <div class='skill-icon-container'>
-                <DiPython class='skill-icon'/>
-                <p>React</p>
+                <DiPhotoshop class='skill-icon'/>
+                <p>Photoshop</p>
+            </div>
+            <div class='skill-icon-container'>
+                <FaGithub class='skill-icon'/>
+                <p>GitHub</p>
             </div>
         </div>
 

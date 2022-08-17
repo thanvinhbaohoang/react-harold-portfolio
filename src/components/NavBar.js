@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import BTCPayButton from "./BTCPayButton";
 
 
 class NavBar extends Component {
@@ -25,9 +26,12 @@ class NavBar extends Component {
             </div>
 
          
-            <div class='nav-connect-button'>
+            {/* <div class='nav-connect-button'>
                 <p> Coffee :) </p>
-            </div>
+            </div> */}
+
+            <BTCPayButton/>
+
         </div>
         )
     }

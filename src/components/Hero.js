@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import {FaPython,FaReact, FaArrowAltCircleUp, FaInstagram, FaLinkedinIn, FaGithub, FaYoutube, FaMonero, FaBtc, FaEthereum, FaLinux, FaCode} from "react-icons/fa";
 
-
 class Hero extends Component {
+    constructor(props){
+        super(props);
+        this.wallet = []
+    }
+    
     render() {
         return (
             <section class="hero-section" id ='hero'>
@@ -38,12 +42,17 @@ class Hero extends Component {
                     </div>
                 </div>     
                 <div class="hero-buttons">
-                    <div class="resume-box">
-                        <p>My Resume</p>
-                    </div>
-                    <div class="contact-box">
-                        <p>Contact Me</p>
-                    </div>
+                        <a href="https://docs.google.com/document/d/1Fkyb2Ff_FmCr2UrZyMWW2BZU0ToPFl-a8TIZf5e6QtM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                            <div class="resume-box">
+                                <p>My Resume</p>
+                            </div>
+                        </a>                    
+                    <a href="mailto:haroldthan@gmail.com" target="_blank" rel="noopener noreferrer">
+                        <div class="contact-box">
+                            <p>Contact Me</p>
+                        </div>
+                    </a>
+
                 </div>
               
 
