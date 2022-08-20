@@ -6,15 +6,15 @@ class NavBar extends Component {
     render() {
         return (
             <div class='nav-bar'>
-            <div class='nav-logo'>
+            <a class='nav-logo' href='#hero'>
                 <h1>HAROLD THAN</h1>
-            </div>
+            </a>
 
             <div class='nav-items'>
                 <a href ='#about'>
                     <p class='nav-item'> About </p>
                 </a>
-                <a href ='#works'>
+                <a href ='#experience'>
                     <p class='nav-item'> Experience </p>
                 </a>
                 <a href ='#works'>
@@ -24,11 +24,6 @@ class NavBar extends Component {
                     <p class='nav-item'> Contact </p>
                 </a>
             </div>
-
-         
-            {/* <div class='nav-connect-button'>
-                <p> Coffee :) </p>
-            </div> */}
 
             <BTCPayButton/>
 

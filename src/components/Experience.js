@@ -11,8 +11,12 @@ class Experience extends Component {
             "1":{employer:'Dartmouth College', 
             jobTitle:'Student',
             timePeriod:'2018-2023',
-            info:<div> GPA: 3.36 
-                <br/>Major: Computer Science </div>
+            info:
+            <div> Major: Computer Science 
+                <br/>GPA: 3.36
+                <br/>Tutor for Math 8 and Math 13 : Multivariable Calculus
+                
+            </div>
             },
             "2":{employer:'DALI Lab', 
             jobTitle:'Developer',
@@ -27,7 +31,7 @@ class Experience extends Component {
             "4":{employer:'Dartmouth Libertarians', 
             jobTitle:'Vice President',
             timePeriod:'2018-Present',
-            info: <div>Vice President of Dartmouth Libertarians 2022 <br/> Student For Liberty 2022's Group Of The Year Winner
+            info: <div>Vice President of Dartmouth Libertarians 2022 <br/> Student For Liberty 2022's Group Of The Year
             </div>},
         }
     }
@@ -49,7 +53,7 @@ class Experience extends Component {
     render() {
         return (
        
-<section class='experience-section'>
+<section class='experience-section' id="experience">
             <div class='section-title'> Where I Have Worked At</div>
             <div class='work-history-container'>
                 <div class='window-top-bar'>

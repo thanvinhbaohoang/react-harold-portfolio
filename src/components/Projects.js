@@ -47,24 +47,16 @@ var otherProjects = ({
         title: "Youtube Clone",
         description: "Youtube Clone using React Native and YoutubeAPI"
     },
-    "2":{
-        imageURL: "",
-        githubURL: "https://github.com",
-        renderURL: "https://render.com",
-        tags: "Web App",
-        title: "Online Notes",
-        description: "Online Note Taking App with Draggable Notes"
-    },
     "4":{
         imageURL: "https://github.com/thanvinhbaohoang/Is-She-Into-You/blob/main/IsSheIntoYou.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://is-she-into-you.onrender.com/",
         tags: "Web App",
         title: "Is She Into You?",
-        description: "Pure CSS and HTML Card 'Game' Based On Youtuber's SimplyExplained Video of the same name"
+        description: "Pure CSS and HTML Card 'Game' Based On SimplyExplained's Youtube Video of the same name"
     },
     "5":{
-        imageURL: " ",
+        imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/boid.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "AR/VR",
@@ -72,7 +64,7 @@ var otherProjects = ({
         description: "A Deep Sea VR Cage Diving Experience with Schools Of Fish behavior simulated with Boids Algorithm"
     },
     "6":{
-        imageURL: " ",
+        imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/advrtise.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "AR/VR",
@@ -80,7 +72,7 @@ var otherProjects = ({
         description: "3D Consensual Advertisement Model with Interactive UI for the mostly unexplored VR Metaverse ads space"
     },
     "7":{
-        imageURL: " ",
+        imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/guitar-hero.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "AR/VR",
@@ -88,12 +80,12 @@ var otherProjects = ({
         description: "Learn to play real guitar through a Guitar Hero Game using Augmented Reality"
     },
     "8":{
-        imageURL: " ",
+        imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/spooderman.png?raw=true",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "Unity3D",
         title: "SpooderMan",
-        description: "Swing Around the city skyline and beat up bean-people ('oof') as Spooderman [Copyright Infringement Not Intended]"
+        description: "Swing Around the city skyline and beat up bean-people ('oof') as Spooderman."
     },
     "9":{
         imageURL: " ",
@@ -117,15 +109,15 @@ var otherProjects = ({
         renderURL: "https://render.com",
         tags: "Software",
         title: "Sudoku In C",
-        description: "Sudoku Solver Program written in C"
+        description: "A Sudoku Game Generator and Solver Program written in C"
     },
     "12":{
         imageURL: " ",
         githubURL: "https://github.com",
         renderURL: "https://render.com",
         tags: "Software",
-        title: "Viberti Part Of Speech",
-        description: "Simple Hidden Markove Model Viterbi Algorithm for tagging part of speech in sentences"
+        title: "Viterbi POS Tagger",
+        description: "Hidden Markov Model for tagging part of speech in texts."
     }
     
 });
