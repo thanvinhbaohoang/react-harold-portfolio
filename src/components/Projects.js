@@ -6,7 +6,7 @@ import {DiUnitySmall,DiBootstrap,DiTerminal, DiReact,DiGithubBadge, DiJsBadge, D
 var featuredProjects = ({
     "1":{
         imageURL: "https://blog.voltage.cloud/content/images/2021/02/1500x500.jpeg",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Blockchain",
         title: "BTCPayServer",
@@ -14,7 +14,7 @@ var featuredProjects = ({
     },
     "2":{
         imageURL: "https://github.com/thanvinhbaohoang/project-dartmart/blob/main/dartmart.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "React Native App",
         title: "DartMart",
@@ -22,7 +22,7 @@ var featuredProjects = ({
     },
     "3":{
         imageURL: "https://github.com/thanvinhbaohoang/spectre-wallet/raw/main/readme_imgs/wallets.png",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Blockchain",
         title: "Spectre Wallet",
@@ -33,7 +33,7 @@ var featuredProjects = ({
 var otherProjects = ({
     "0":{
         imageURL: " ",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Web 3.0",
         title: "EtherGram",
@@ -41,7 +41,7 @@ var otherProjects = ({
     },
     "1":{
         imageURL: "https://github.com/thanvinhbaohoang/react-native-youtube/blob/main/youtubeclone.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Web App",
         title: "Youtube Clone",
@@ -49,7 +49,7 @@ var otherProjects = ({
     },
     "4":{
         imageURL: "https://github.com/thanvinhbaohoang/Is-She-Into-You/blob/main/IsSheIntoYou.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://is-she-into-you.onrender.com/",
         tags: "Web App",
         title: "Is She Into You?",
@@ -57,7 +57,7 @@ var otherProjects = ({
     },
     "5":{
         imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/boid.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "AR/VR",
         title: "Boids Deep Sea Simulation",
@@ -65,7 +65,7 @@ var otherProjects = ({
     },
     "6":{
         imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/advrtise.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "AR/VR",
         title: "Ad-VR-Tise",
@@ -73,7 +73,7 @@ var otherProjects = ({
     },
     "7":{
         imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/guitar-hero.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "AR/VR",
         title: "GuitAR Hero",
@@ -81,7 +81,7 @@ var otherProjects = ({
     },
     "8":{
         imageURL: "https://github.com/thanvinhbaohoang/images-for-portfolio/blob/main/spooderman.png?raw=true",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Unity3D",
         title: "SpooderMan",
@@ -89,7 +89,7 @@ var otherProjects = ({
     },
     "9":{
         imageURL: " ",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Software",
         title: "Web Search Engine",
@@ -97,7 +97,7 @@ var otherProjects = ({
     },
     "10":{
         imageURL: " ",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "NLP",
         title: "Ivy Sentiment",
@@ -105,7 +105,7 @@ var otherProjects = ({
     },
     "11":{
         imageURL: " ",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Software",
         title: "Sudoku In C",
@@ -113,7 +113,7 @@ var otherProjects = ({
     },
     "12":{
         imageURL: " ",
-        githubURL: "https://github.com",
+        githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
         renderURL: "https://render.com",
         tags: "Software",
         title: "Viterbi POS Tagger",
@@ -129,7 +129,7 @@ class Projects extends Component {
         this.projectArrays = ({
             "1":{
                 imageURL: " ",
-                githubURL: "https://github.com",
+                githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
                 renderURL: "https://render.com",
                 tags: "Blockchain",
                 title: "Super Spectre Wallet",
@@ -137,7 +137,7 @@ class Projects extends Component {
             },
             "2":{
                 imageURL: " ",
-                githubURL: "https://github.com",
+                githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
                 title: "Super VR Headset",
@@ -145,7 +145,7 @@ class Projects extends Component {
             },
             "3":{
                 imageURL: " ",
-                githubURL: "https://github.com",
+                githubURL: "https://github.com/thanvinhbaohoang?tab=repositories",
                 renderURL: "https://render.com",
                 tags: "AR/VR",
                 title: "Super VR Headset",
