@@ -58,7 +58,7 @@ h1, h2, h3 {
 h1 {
 padding-bottom: 10px;
 }
-
+// ======== NAVBAR =========
 .nav-bar {
   position: absolute;
   width: 90%;
@@ -634,24 +634,13 @@ cursor: pointer;
 }    
 
 .about-image-container {
-  width: 270px;
   align-self: center;
-  justify-content: center;
-  height: 270px;
-  border: solid 2px white;
-  border-radius: 8px;
-  /* background-image: url("images/harold.jpg"); */
-  background-size:contain;
-  background-position:center;
-  box-shadow: 5px 5px rgb(233, 137, 255);
-  transform: rotate(-3deg);
   transition: 0.3s;
 }
 
 .about-image-container:hover {
   transition: 0.3s;
-  box-shadow: 2px 2px rgb(2, 30, 35);
-  transform: rotate(3deg);
+  transform: scale(1.01);
 }
 
 .about-description-and-resume{
@@ -1259,7 +1248,6 @@ padding: 30px;
 
   .image-and-description .about-image-container {
     transform: none;
-    box-shadow: 5px 5px  #ff8000 ;
     margin-bottom: 30px;
   }
 
