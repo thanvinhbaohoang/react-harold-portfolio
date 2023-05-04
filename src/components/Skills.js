@@ -8,19 +8,6 @@ import {DiUnitySmall,DiBootstrap,DiTerminal, DiReact,DiGithubBadge, DiJsBadge, D
 var skillsArray = [DiReact, DiUnitySmall, DiJsBadge, DiLinux, DiMongodb, DiPhotoshop, DiPython, FaBtc, FaEthereum, FaMonero, FaGithub]
 
 class Skills extends Component {
-
-    // renderSkillsTiles() {
-    //     return(
-    //         <div class='skills'>
-    //             for (let i = 0; i < skillsArray.length; i++) {
-    //                 <div class='skill-icon-container'>
-    //                         <skillsArray[i] class='skill-icon'/>
-    //                         <p>React</p>
-    //                 </div>
-    //             }
-    //         </div>
-    //     )
-    // }
     render() {
         return (
       <section class='skills-section'>
