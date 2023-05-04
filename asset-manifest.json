@@ -1,20 +1,20 @@
 {
   "files": {
-    "main.css": "/static/css/main.a8c1f163.css",
-    "main.js": "/static/js/main.71da4ea4.js",
-    "static/js/787.d8c6f364.chunk.js": "/static/js/787.d8c6f364.chunk.js",
-    "static/media/harold.jpg": "/static/media/harold.0476562e308992a97830.jpg",
-    "static/media/web3.webp": "/static/media/web3.649bf4313f8cd2b4877b.webp",
-    "static/media/cyber.webp": "/static/media/cyber.b2e00e6cee346a7ad9a8.webp",
-    "static/media/virtual.webp": "/static/media/virtual.009fef1ce2f2b1c06d0c.webp",
-    "static/media/doge.webp": "/static/media/doge.2df6b108a874a43a2f2f.webp",
-    "index.html": "/index.html",
-    "main.a8c1f163.css.map": "/static/css/main.a8c1f163.css.map",
-    "main.71da4ea4.js.map": "/static/js/main.71da4ea4.js.map",
-    "787.d8c6f364.chunk.js.map": "/static/js/787.d8c6f364.chunk.js.map"
+    "main.css": "/react-harold-portfolio/static/css/main.a8c1f163.css",
+    "main.js": "/react-harold-portfolio/static/js/main.c08c04ac.js",
+    "static/js/787.d8c6f364.chunk.js": "/react-harold-portfolio/static/js/787.d8c6f364.chunk.js",
+    "static/media/harold.jpg": "/react-harold-portfolio/static/media/harold.0476562e308992a97830.jpg",
+    "static/media/web3.webp": "/react-harold-portfolio/static/media/web3.649bf4313f8cd2b4877b.webp",
+    "static/media/cyber.webp": "/react-harold-portfolio/static/media/cyber.b2e00e6cee346a7ad9a8.webp",
+    "static/media/virtual.webp": "/react-harold-portfolio/static/media/virtual.009fef1ce2f2b1c06d0c.webp",
+    "static/media/doge.webp": "/react-harold-portfolio/static/media/doge.2df6b108a874a43a2f2f.webp",
+    "index.html": "/react-harold-portfolio/index.html",
+    "main.a8c1f163.css.map": "/react-harold-portfolio/static/css/main.a8c1f163.css.map",
+    "main.c08c04ac.js.map": "/react-harold-portfolio/static/js/main.c08c04ac.js.map",
+    "787.d8c6f364.chunk.js.map": "/react-harold-portfolio/static/js/787.d8c6f364.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.a8c1f163.css",
-    "static/js/main.71da4ea4.js"
+    "static/js/main.c08c04ac.js"
   ]
 }
