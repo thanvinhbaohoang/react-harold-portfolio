@@ -1,5 +1,4 @@
-My Portfolio Website Is Hosted At [HaroldThan.me](https://haroldthan.me/).
-
+[Deprecated] My Portfolio Website Is Hosted At [Github Page](https://thanvinhbaohoang.github.io/react-harold-portfolio/).
 
 Buy Me A Coffee: BTCPayServer Modal
 
